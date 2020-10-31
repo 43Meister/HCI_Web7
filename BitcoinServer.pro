@@ -21,3 +21,36 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 TARGET = BitcoinServer
 TEMPLATE = app
+
+
+SOURCES += main.cpp \
+    bitcoinserver.cpp \
+    servermanager.cpp \
+    settingswin.cpp \
+    startservers.cpp \
+    stopservers.cpp \
+    show.cpp \
+    commands.cpp \
+    showresp.cpp \
+    argwindowmine.cpp \
+    logable.cpp \
+    demo.cpp
+        bitcoinserver.cpp
+
+HEADERS  += bitcoinserver.h\
+             $${HTTP_INC}/jasonHttpclient.h \
+    servermanager.h \
+    settingswin.h \
+    startservers.h \
+    stopservers.h \
+    show.h \
+    commands.h \
+    showresp.h \
+    argwindowmine.h \
+    logable.h \
+    demo.h
+
+FORMS    += bitcoinserver.ui \
+    settingswin.ui \
+    startservers.ui \
+    stopservers.ui \
