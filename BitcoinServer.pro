@@ -54,3 +54,18 @@ FORMS    += bitcoinserver.ui \
     settingswin.ui \
     startservers.ui \
     stopservers.ui \
+    show.ui \
+    commands.ui \
+    showresp.ui \
+    argwindowmine.ui \
+    demo.ui
+
+LIBS += -L $${HTTP_LIB}  -L $${LOG4CXX_LIB} -ljasonhttpclient -llog4cxx
+
+INCLUDEPATH += $${HTTP_INC}
+INCLUDEPATH += $${LOG4CXX_INC}
+
+DISTFILES +=\
+bitCoinserver.log4cxx
+
+DESTDIR += ~/BitcoinServerManager
