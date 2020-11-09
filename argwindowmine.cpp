@@ -27,3 +27,20 @@ void cargWindow::show(std::function<bool (const QString&)> func, QString lable, 
 void cargWindow::on_pushButton_clicked()
 {
     QString lineTxt(ui->lineEdit->text());
+
+    bool ok(true);
+
+    if (m_tryToConert)
+    {
+        lineTxt.toLongLong(&ok);
+    }
+
+    if (!ok)
+    {
+        lineTxt = "0";
+    }
+
+    m_callback(lineTxt);
+
+    QDialog::hide();
+}
