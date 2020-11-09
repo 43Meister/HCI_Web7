@@ -2,3 +2,5 @@
 #define ARGWINDOW_H
 
 #include <QDialog>
+#include <future>
+#in
