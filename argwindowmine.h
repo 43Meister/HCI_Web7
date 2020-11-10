@@ -6,4 +6,7 @@
 #include <functional>
 
 namespace Ui {
-class ca
+class cargWindow;
+}
+
+class car
