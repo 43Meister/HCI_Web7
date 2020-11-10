@@ -5,4 +5,5 @@
 #include <future>
 #include <functional>
 
-namespac
+namespace Ui {
+class ca
