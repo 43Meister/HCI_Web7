@@ -3,4 +3,6 @@
 
 #include <QDialog>
 #include <future>
-#in
+#include <functional>
+
+namespac
