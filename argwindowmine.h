@@ -9,4 +9,6 @@ namespace Ui {
 class cargWindow;
 }
 
-class car
+class cargWindow : public QDialog
+{
+ 
