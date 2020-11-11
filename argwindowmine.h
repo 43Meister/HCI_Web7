@@ -13,4 +13,5 @@ class cargWindow : public QDialog
 {
     Q_OBJECT
 
-pub
+public:
+    explicit carg
