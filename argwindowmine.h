@@ -17,4 +17,4 @@ public:
     explicit cargWindow(QWidget *parent = 0);
     ~cargWindow();
 
-    vo
+    void show(std::function<b
