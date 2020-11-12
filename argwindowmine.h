@@ -15,4 +15,6 @@ class cargWindow : public QDialog
 
 public:
     explicit cargWindow(QWidget *parent = 0);
-    ~ca
+    ~cargWindow();
+
+    vo
