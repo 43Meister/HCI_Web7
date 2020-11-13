@@ -21,4 +21,4 @@ public:
 
     inline QString getBlocks()
     {
-        auto
+        auto future = m_blocksPromis
