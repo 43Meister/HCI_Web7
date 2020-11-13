@@ -17,4 +17,6 @@ public:
     explicit cargWindow(QWidget *parent = 0);
     ~cargWindow();
 
-    void show(std::function<bool (const QString&)> func, QString lable, bool tr
+    void show(std::function<bool (const QString&)> func, QString lable, bool tryToConvert = true);
+
+    inline QStr
