@@ -19,4 +19,6 @@ public:
 
     void show(std::function<bool (const QString&)> func, QString lable, bool tryToConvert = true);
 
-    inline QStr
+    inline QString getBlocks()
+    {
+        auto
