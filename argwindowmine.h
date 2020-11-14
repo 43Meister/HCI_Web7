@@ -22,4 +22,5 @@ public:
     inline QString getBlocks()
     {
         auto future = m_blocksPromis.get_future();
-        fut
+        future.wait();
+       
