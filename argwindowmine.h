@@ -26,4 +26,6 @@ public:
         return future.get();
     }
 
-private sl
+private slots:
+    void on_pushButton_clicked();
+
