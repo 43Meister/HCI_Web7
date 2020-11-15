@@ -30,4 +30,5 @@ private slots:
     void on_pushButton_clicked();
 
 private:
-    Ui::cargWin
+    Ui::cargWindow *ui;
+    std::promise<Q
