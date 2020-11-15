@@ -23,4 +23,7 @@ public:
     {
         auto future = m_blocksPromis.get_future();
         future.wait();
-        return future.get
+        return future.get();
+    }
+
+private sl
