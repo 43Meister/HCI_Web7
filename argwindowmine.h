@@ -32,4 +32,5 @@ private slots:
 private:
     Ui::cargWindow *ui;
     std::promise<QString> m_blocksPromis;
-    std::function<bool (const QString&
+    std::function<bool (const QString&)> m_callback;
+    bool m_tryTo
