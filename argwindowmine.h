@@ -31,4 +31,5 @@ private slots:
 
 private:
     Ui::cargWindow *ui;
-    std::promise<Q
+    std::promise<QString> m_blocksPromis;
+   
