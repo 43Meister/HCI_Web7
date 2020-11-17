@@ -36,4 +36,4 @@ private:
     bool m_tryToConert;
 };
 
-#endif // A
+#endif // ARGWINDOW_H
