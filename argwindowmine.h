@@ -33,4 +33,7 @@ private:
     Ui::cargWindow *ui;
     std::promise<QString> m_blocksPromis;
     std::function<bool (const QString&)> m_callback;
-    bool m_tryTo
+    bool m_tryToConert;
+};
+
+#endif // A
