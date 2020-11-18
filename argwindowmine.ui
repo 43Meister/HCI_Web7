@@ -2,4 +2,5 @@
 <ui version="4.0">
  <class>cargWindow</class>
  <widget class="QDialog" name="cargWindow">
-  <prope
+  <property name="geometry">
+   <r
