@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>cargWindow</class>
- <widget class="QDialog" name="ca
+ <widget class="QDialog" name="cargWindow">
+  <prope
