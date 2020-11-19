@@ -3,4 +3,6 @@
  <class>cargWindow</class>
  <widget class="QDialog" name="cargWindow">
   <property name="geometry">
-   <r
+   <rect>
+    <x>0</x>
+    <y>0</y
