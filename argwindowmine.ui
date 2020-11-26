@@ -26,4 +26,5 @@
     <string>Ok</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label"
+  <widget class="QLabel" name="label">
+   <property name="geo
