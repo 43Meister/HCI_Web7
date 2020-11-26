@@ -27,4 +27,6 @@
    </property>
   </widget>
   <widget class="QLabel" name="label">
-   <property name="geo
+   <property name="geometry">
+    <rect>
+     
