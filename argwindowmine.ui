@@ -37,4 +37,6 @@
    </property>
    <property name="text">
     <string>Number Of Blocks</string>
-   </
+   </property>
+  </widget>
+ 
