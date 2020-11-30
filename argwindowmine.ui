@@ -39,4 +39,5 @@
     <string>Number Of Blocks</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit
+  <widget class="QLineEdit" name="lineEdit">
+   <property name
