@@ -41,4 +41,6 @@
   </widget>
   <widget class="QLineEdit" name="lineEdit">
    <property name="geometry">
-    <r
+    <rect>
+     <x>62</x>
+  
