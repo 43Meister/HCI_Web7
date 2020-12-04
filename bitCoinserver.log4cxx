@@ -1,1 +1,3 @@
-log4j.rootLogger=debu
+log4j.rootLogger=debug, stdout, R
+
+log4j.app
