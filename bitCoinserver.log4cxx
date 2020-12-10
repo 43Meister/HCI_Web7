@@ -9,4 +9,4 @@ log4j.appender.stdout.layout.ConversionPattern=%d [%t] %-5p %c (%F:%L) - %m%n
 log4j.appender.R=org.apache.log4j.RollingFileAppender
 log4j.appender.R.File=bitcoinServer.log
 
-log4j.appender.R.
+log4j.appender.R.MaxFileSize=1000KB
