@@ -11,4 +11,6 @@ log4j.appender.R.File=bitcoinServer.log
 
 log4j.appender.R.MaxFileSize=1000KB
 # Keep one backup file
-log4j.appender
+log4j.appender.R.MaxBackupIndex=4
+
+log4
