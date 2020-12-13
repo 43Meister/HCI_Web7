@@ -13,4 +13,5 @@ log4j.appender.R.MaxFileSize=1000KB
 # Keep one backup file
 log4j.appender.R.MaxBackupIndex=4
 
-log4j.appender.R.layout=org.apache.log4
+log4j.appender.R.layout=org.apache.log4j.PatternLayout
+log4j.append
