@@ -23,3 +23,26 @@ BitcoinServer::BitcoinServer(QWidget *parent) :
 
     if (!mountVolume())
     {
+        std::logic_error exp("Couldnt mount lvm stopping!!!");
+        throw exp;
+    }
+}
+
+BitcoinServer::~BitcoinServer()
+{
+    delete ui;
+}
+
+void BitcoinServer::on_pushButton_clicked()
+{
+    std::string errMsg("");
+    LOGGER_HELPER(INFO, errMsg,
+                  std::string("==================================================================\n\t\t") +
+                  "Exiting Application \n" +
+                  "==================================================================");
+    m_manager.deleteAll();
+
+    if( umount2(MNT_FULL.toStdString().c_str(), MNT_FORCE) < 0 )
+    {
+          LOGGER_HELPER(FATAL, errMsg, "unmount failed with error: ", strerror(errno));
+    }
