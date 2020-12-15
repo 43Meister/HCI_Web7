@@ -46,3 +46,34 @@ void BitcoinServer::on_pushButton_clicked()
     {
           LOGGER_HELPER(FATAL, errMsg, "unmount failed with error: ", strerror(errno));
     }
+
+    exit(0);
+}
+
+void BitcoinServer::on_pushButton_2_clicked()
+{
+    m_settings.show();
+}
+
+void BitcoinServer::on_pushButton_3_clicked()
+{
+   m_startServer.show();
+}
+
+void BitcoinServer::on_pushButton_4_clicked()
+{
+    m_stopServers.show();
+}
+
+void BitcoinServer::on_pushButton_5_clicked()
+{
+   m_show.show();
+}
+
+void BitcoinServer::on_pushButton_6_clicked()
+{
+    m_commands.show();
+}
+
+void BitcoinServer::on_pushButton_7_clicked()
+{
