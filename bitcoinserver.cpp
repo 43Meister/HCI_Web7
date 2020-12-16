@@ -98,3 +98,14 @@ bool BitcoinServer::mountVolume()
         LOGGER_HELPER(FATAL, errMsg, "mkdir failed with error: ", strerror(errno));
         return false;
     }
+
+    if( -1 == mount(LV_NAME.toStdString().c_str(), MNT_FULL.toStdString().c_str(),
+                    FS.toStdString().c_str(), MS_MGC_VAL | MS_SILENT, "") )
+    {
+       LOGGER_HELPER(ERROR, errMsg, "mount failed with error: ", strerror(errno));
+       //return false;
+       //for now just for debug we can work without an lv
+    }
+
+    return true;
+}
