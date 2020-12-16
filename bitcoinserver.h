@@ -1,2 +1,4 @@
 #ifndef BITCOINSERVER_H
-#define BITCOINSERVE
+#define BITCOINSERVER_H
+
+#include <QMa
