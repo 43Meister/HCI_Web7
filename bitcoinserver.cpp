@@ -77,3 +77,24 @@ void BitcoinServer::on_pushButton_6_clicked()
 
 void BitcoinServer::on_pushButton_7_clicked()
 {
+    m_demo.show();
+}
+
+bool BitcoinServer::mountVolume()
+{
+    std::string errMsg("");
+
+    struct stat fileStat;
+    auto status = stat(MNT_FULL.toStdString().c_str(), &fileStat);
+    auto dirStat = 0;
+
+    if (status < 0)
+    {
+        dirStat = mkdir(MNT_FULL.toStdString().c_str(), ACCESSPERMS);
+    }
+
+    if ( dirStat < 0 )
+    {
+        LOGGER_HELPER(FATAL, errMsg, "mkdir failed with error: ", strerror(errno));
+        return false;
+    }
