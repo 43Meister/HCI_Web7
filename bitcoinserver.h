@@ -1,1 +1,2 @@
-#ifndef BITCOINS
+#ifndef BITCOINSERVER_H
+#define BITCOINSERVE
