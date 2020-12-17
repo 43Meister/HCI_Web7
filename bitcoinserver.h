@@ -2,4 +2,5 @@
 #define BITCOINSERVER_H
 
 #include <QMainWindow>
-#include "serverm
+#include "servermanager.h"
+#include "s
