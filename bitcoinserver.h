@@ -1,4 +1,5 @@
 #ifndef BITCOINSERVER_H
 #define BITCOINSERVER_H
 
-#include <QMa
+#include <QMainWindow>
+#include "serverm
