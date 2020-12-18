@@ -3,4 +3,5 @@
 
 #include <QMainWindow>
 #include "servermanager.h"
-#include "s
+#include "settingswin.h"
+#inclu
