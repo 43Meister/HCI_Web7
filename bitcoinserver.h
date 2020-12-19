@@ -5,4 +5,5 @@
 #include "servermanager.h"
 #include "settingswin.h"
 #include "startservers.h"
-#inclu
+#include "stopservers.h"
+#includ
