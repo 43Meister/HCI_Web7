@@ -6,4 +6,5 @@
 #include "settingswin.h"
 #include "startservers.h"
 #include "stopservers.h"
-#includ
+#include "show.h"
+#include "com
