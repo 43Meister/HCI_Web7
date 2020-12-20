@@ -8,4 +8,7 @@
 #include "stopservers.h"
 #include "show.h"
 #include "commands.h"
-#include "logab
+#include "logable.h"
+#include "demo.h"
+
+namespa
