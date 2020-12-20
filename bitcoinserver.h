@@ -11,4 +11,5 @@
 #include "logable.h"
 #include "demo.h"
 
-namespa
+namespace Ui {
+class BitcoinSe
