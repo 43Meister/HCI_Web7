@@ -7,4 +7,5 @@
 #include "startservers.h"
 #include "stopservers.h"
 #include "show.h"
-#include "com
+#include "commands.h"
+#include "logab
