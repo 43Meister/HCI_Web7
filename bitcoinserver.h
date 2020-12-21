@@ -15,4 +15,6 @@ namespace Ui {
 class BitcoinServer;
 }
 
-class BitcoinServer : public QMainWindow
+class BitcoinServer : public QMainWindow, CLogable
+{
+    Q_OBJECT
