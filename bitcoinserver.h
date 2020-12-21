@@ -12,4 +12,7 @@
 #include "demo.h"
 
 namespace Ui {
+class BitcoinServer;
+}
+
 class BitcoinSe
