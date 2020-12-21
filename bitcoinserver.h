@@ -18,3 +18,6 @@ class BitcoinServer;
 class BitcoinServer : public QMainWindow, CLogable
 {
     Q_OBJECT
+
+public:
+    explicit Bitc
