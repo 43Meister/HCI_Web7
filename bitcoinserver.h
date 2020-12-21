@@ -15,4 +15,4 @@ namespace Ui {
 class BitcoinServer;
 }
 
-class BitcoinSe
+class BitcoinServer : public QMainWindow
