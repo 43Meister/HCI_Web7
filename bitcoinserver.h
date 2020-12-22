@@ -20,4 +20,4 @@ class BitcoinServer : public QMainWindow, CLogable
     Q_OBJECT
 
 public:
-    explicit Bitc
+    explicit BitcoinServer(QWidget *parent =
