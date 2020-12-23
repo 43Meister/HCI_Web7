@@ -21,4 +21,6 @@ class BitcoinServer : public QMainWindow, CLogable
 
 public:
     explicit BitcoinServer(QWidget *parent = 0);
-    ~BitcoinServe
+    ~BitcoinServer();
+
+private slots:
