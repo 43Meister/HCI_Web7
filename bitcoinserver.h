@@ -24,3 +24,4 @@ public:
     ~BitcoinServer();
 
 private slots:
+    void on_pushButton_cli
