@@ -26,4 +26,5 @@ public:
 private slots:
     void on_pushButton_clicked();
 
-    void on_pu
+    void on_pushButton_2_clicked();
+
