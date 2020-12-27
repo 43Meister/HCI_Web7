@@ -32,4 +32,4 @@ private slots:
 
     void on_pushButton_4_clicked();
 
-    voi
+    void on_pushButton_5_cli
