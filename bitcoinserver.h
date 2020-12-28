@@ -38,4 +38,6 @@ private slots:
 
     void on_pushButton_7_clicked();
 
-priva
+private:
+
+    bool mountVolume
