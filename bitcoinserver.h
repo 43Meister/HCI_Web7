@@ -40,4 +40,6 @@ private slots:
 
 private:
 
-    bool mountVolume
+    bool mountVolume();
+
+    Ui::BitcoinSe
