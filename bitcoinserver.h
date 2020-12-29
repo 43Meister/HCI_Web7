@@ -42,4 +42,6 @@ private:
 
     bool mountVolume();
 
-    Ui::BitcoinSe
+    Ui::BitcoinServer *ui;
+
+    CServerM
