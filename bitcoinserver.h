@@ -44,4 +44,6 @@ private:
 
     Ui::BitcoinServer *ui;
 
-    CServerManager& m_manage
+    CServerManager& m_manager;
+
+    CSet
