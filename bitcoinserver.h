@@ -48,4 +48,4 @@ private:
 
     CSettingsWin m_settings;
 
-    
+    CStartServers m_startServe
