@@ -46,4 +46,6 @@ private:
 
     CServerManager& m_manager;
 
-    CSet
+    CSettingsWin m_settings;
+
+    
