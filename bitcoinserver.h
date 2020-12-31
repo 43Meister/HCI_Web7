@@ -50,4 +50,6 @@ private:
 
     CStartServers m_startServer;
 
-    CStopServers m_stopSer
+    CStopServers m_stopServers;
+
+    CShow m_
