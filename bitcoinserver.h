@@ -48,4 +48,6 @@ private:
 
     CSettingsWin m_settings;
 
-    CStartServers m_startServe
+    CStartServers m_startServer;
+
+    CStopServers m_stopSer
