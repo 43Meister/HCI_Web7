@@ -52,4 +52,6 @@ private:
 
     CStopServers m_stopServers;
 
-    CShow m_
+    CShow m_show;
+
+    CCommands m
