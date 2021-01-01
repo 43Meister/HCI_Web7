@@ -56,4 +56,8 @@ private:
 
     CCommands m_commands;
 
-    CDemo m_demo
+    CDemo m_demo;
+
+};
+
+#endif // BI
