@@ -54,4 +54,6 @@ private:
 
     CShow m_show;
 
-    CCommands m
+    CCommands m_commands;
+
+    CDemo m_demo
