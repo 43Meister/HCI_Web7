@@ -60,4 +60,4 @@ private:
 
 };
 
-#endif // BI
+#endif // BITCOINSERVER_H
