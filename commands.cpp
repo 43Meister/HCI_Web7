@@ -3,4 +3,4 @@
 #include "servermanager.h"
 #include "argwindowmine.h"
 
-#
+#define EXE_LAMBDA QStrin
