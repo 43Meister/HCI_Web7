@@ -4,4 +4,5 @@
 #include "argwindowmine.h"
 
 #define EXE_LAMBDA QString reslt; \
-                   auto exe([this, &reslt](int32_t ind, bool showResp, const QString& cmd, const QString& ar
+                   auto exe([this, &reslt](int32_t ind, bool showResp, const QString& cmd, const QString& args)->bool \
+         
