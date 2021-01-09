@@ -9,4 +9,4 @@
 
 CCommands::CCommands(QWidget *parent) :
     QDialog(parent),
-    CL
+    CLogable("CommandsLog
