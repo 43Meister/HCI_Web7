@@ -8,4 +8,5 @@
                    {return this->runCommand(ind, showResp, cmd, args, reslt);});
 
 CCommands::CCommands(QWidget *parent) :
-    Q
+    QDialog(parent),
+    CL
