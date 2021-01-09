@@ -7,4 +7,5 @@
                    auto exe([this, &reslt](int32_t ind, bool showResp, const QString& cmd, const QString& args)->bool \
                    {return this->runCommand(ind, showResp, cmd, args, reslt);});
 
-CCommands::CCommands(
+CCommands::CCommands(QWidget *parent) :
+    Q
