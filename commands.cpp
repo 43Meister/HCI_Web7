@@ -10,4 +10,6 @@
 CCommands::CCommands(QWidget *parent) :
     QDialog(parent),
     CLogable("CommandsLog"),
-    ui(new Ui::CComm
+    ui(new Ui::CCommands)
+{
+    ui->setupUi
