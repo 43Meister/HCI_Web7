@@ -12,4 +12,7 @@ CCommands::CCommands(QWidget *parent) :
     CLogable("CommandsLog"),
     ui(new Ui::CCommands)
 {
-    ui->setupUi
+    ui->setupUi(this);
+}
+
+CCommand
