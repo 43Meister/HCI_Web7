@@ -15,4 +15,6 @@ CCommands::CCommands(QWidget *parent) :
     ui->setupUi(this);
 }
 
-CCommand
+CCommands::~CCommands()
+{
+ 
