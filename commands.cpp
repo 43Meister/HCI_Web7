@@ -20,4 +20,6 @@ CCommands::~CCommands()
     delete ui;
 }
 
-void 
+void CCommands::show()
+{
+    
