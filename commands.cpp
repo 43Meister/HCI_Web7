@@ -17,4 +17,7 @@ CCommands::CCommands(QWidget *parent) :
 
 CCommands::~CCommands()
 {
- 
+    delete ui;
+}
+
+void 
