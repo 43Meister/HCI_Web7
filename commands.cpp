@@ -22,4 +22,6 @@ CCommands::~CCommands()
 
 void CCommands::show()
 {
-    auto data = std::move(CServerManager::getReference().getT
+    auto data = std::move(CServerManager::getReference().getTableData());
+
+    initCombo(
