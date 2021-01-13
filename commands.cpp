@@ -24,4 +24,4 @@ void CCommands::show()
 {
     auto data = std::move(CServerManager::getReference().getTableData());
 
-    initCombo(
+    initCombo(ui->comboBox, data
