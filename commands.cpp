@@ -22,4 +22,4 @@ CCommands::~CCommands()
 
 void CCommands::show()
 {
-    auto data = std::move(CServerMa
+    auto data = std::move(CServerManager::getReference().getT
