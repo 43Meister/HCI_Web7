@@ -26,4 +26,4 @@ void CCommands::show()
 
     initCombo(ui->comboBox, data);
     initCombo(ui->comboBox_2, data);
-    ini
+    initCombo(ui->comb
