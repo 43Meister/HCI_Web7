@@ -31,4 +31,4 @@ void CCommands::show()
     QDialog::show();
 }
 
-void CCom
+void CCommands::initCombo(QCo
