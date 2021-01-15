@@ -28,4 +28,7 @@ void CCommands::show()
     initCombo(ui->comboBox_2, data);
     initCombo(ui->comboBox_3, data);
 
-    QDialog:
+    QDialog::show();
+}
+
+void CCom
