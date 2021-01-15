@@ -31,4 +31,4 @@ void CCommands::show()
     QDialog::show();
 }
 
-void CCommands::initCombo(QCo
+void CCommands::initCombo(QComboBox* combo, CServ
