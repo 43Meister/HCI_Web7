@@ -31,4 +31,6 @@ void CCommands::show()
     QDialog::show();
 }
 
-void CCommands::initCombo(QComboBox* combo, CServerManager::TServTa
+void CCommands::initCombo(QComboBox* combo, CServerManager::TServTable &data)
+{
+    combo
