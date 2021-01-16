@@ -33,4 +33,5 @@ void CCommands::show()
 
 void CCommands::initCombo(QComboBox* combo, CServerManager::TServTable &data)
 {
-    combo
+    combo->clear();
+    combo->addIt
