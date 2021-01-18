@@ -39,4 +39,5 @@ void CCommands::initCombo(QComboBox* combo, CServerManager::TServTable &data)
     for (auto& outer : data)
     {
         if (combo->findText(outer.second[CServerManager::SERVER_NAME]) == -1)
-        
+        {
+            if (outer
