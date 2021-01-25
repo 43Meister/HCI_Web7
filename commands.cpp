@@ -43,4 +43,9 @@ void CCommands::initCombo(QComboBox* combo, CServerManager::TServTable &data)
             if (outer.second[CServerManager::STATUS] == CServerManager::ACTIVE)
             {
                 combo->addItem(outer.second[CServerManager::SERVER_NAME], QVariant(outer.first));
-            
+            }
+        }
+    }
+}
+
+void CCom
