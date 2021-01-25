@@ -48,4 +48,4 @@ void CCommands::initCombo(QComboBox* combo, CServerManager::TServTable &data)
     }
 }
 
-void CCom
+void CCommands::on_comboBox_ac
