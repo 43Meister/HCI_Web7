@@ -55,4 +55,5 @@ void CCommands::on_comboBox_activated(int index)
 
 
 
-void CCommands::on_p
+void CCommands::on_pushButton_clicked()
+{
