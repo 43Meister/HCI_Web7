@@ -51,3 +51,8 @@ void CCommands::initCombo(QComboBox* combo, CServerManager::TServTable &data)
 void CCommands::on_comboBox_activated(int index)
 {
     m_index = index;
+}
+
+
+
+void CCommands::on_p
