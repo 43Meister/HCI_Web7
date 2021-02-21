@@ -57,4 +57,4 @@ void CCommands::on_comboBox_activated(int index)
 
 void CCommands::on_pushButton_clicked()
 {
-    auto ind(ui->comboB
+    auto ind(ui->comboBox_3->currentDat
