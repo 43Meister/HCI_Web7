@@ -59,4 +59,7 @@ void CCommands::on_pushButton_clicked()
 {
     auto ind(ui->comboBox_3->currentData().toInt());
 
-    getBalance
+    getBalance(ind);
+    /*EXE_LAMBDA;
+
+    a
