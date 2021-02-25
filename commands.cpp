@@ -62,4 +62,6 @@ void CCommands::on_pushButton_clicked()
     getBalance(ind);
     /*EXE_LAMBDA;
 
-    auto status = execute(ind, std::move(exe), false, true, QString("getbalance
+    auto status = execute(ind, std::move(exe), false, true, QString("getbalance"), QString(""));
+
+   
