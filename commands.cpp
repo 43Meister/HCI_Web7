@@ -62,4 +62,4 @@ void CCommands::on_pushButton_clicked()
     getBalance(ind);
     /*EXE_LAMBDA;
 
-    auto status = execute(ind, 
+    auto status = execute(ind, std::move(exe), fal
