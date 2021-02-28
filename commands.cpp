@@ -66,4 +66,4 @@ void CCommands::on_pushButton_clicked()
 
     if (status)
     {
-        a
+        auto balance(re
