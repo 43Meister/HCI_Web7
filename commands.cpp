@@ -64,4 +64,6 @@ void CCommands::on_pushButton_clicked()
 
     auto status = execute(ind, std::move(exe), false, true, QString("getbalance"), QString(""));
 
-   
+    if (status)
+    {
+        a
