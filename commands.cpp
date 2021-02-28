@@ -66,4 +66,4 @@ void CCommands::on_pushButton_clicked()
 
     if (status)
     {
-        auto balance(re
+        auto balance(reslt.split(CServerManager::RES
