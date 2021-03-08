@@ -70,4 +70,6 @@ void CCommands::on_pushButton_clicked()
         m_serverMng.setBalance(ind, balance[0].toFloat());
     }
 
-    i
+    if (ind > -1)
+    {
+        runComma
