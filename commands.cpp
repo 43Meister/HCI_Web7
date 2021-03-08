@@ -67,4 +67,7 @@ void CCommands::on_pushButton_clicked()
     if (status)
     {
         auto balance(reslt.split(CServerManager::RESP_SEPERATOR));
-        m_serverMng.setBalance(ind, ba
+        m_serverMng.setBalance(ind, balance[0].toFloat());
+    }
+
+    i
