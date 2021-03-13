@@ -72,4 +72,4 @@ void CCommands::on_pushButton_clicked()
 
     if (ind > -1)
     {
-        runComma
+        runCommand(ind, "getbalance"
