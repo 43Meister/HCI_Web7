@@ -77,4 +77,6 @@ void CCommands::on_pushButton_clicked()
 
 }
 
-void CCommands::on_pushB
+void CCommands::on_pushButton_2_clicked()
+{
+    hid
