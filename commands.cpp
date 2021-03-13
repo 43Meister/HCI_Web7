@@ -77,3 +77,4 @@ void CCommands::on_pushButton_clicked()
 
 }
 
+void CCommands::on_pushB
