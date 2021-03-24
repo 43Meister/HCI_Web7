@@ -82,4 +82,4 @@ void CCommands::on_pushButton_2_clicked()
     hide();
 }
 
-void CCommands:
+void CCommands::createAddress(quint32 serv, b
