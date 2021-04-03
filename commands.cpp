@@ -82,4 +82,6 @@ void CCommands::on_pushButton_2_clicked()
     hide();
 }
 
-void CCommands::createAddress(quint32 serv, b
+void CCommands::createAddress(quint32 serv, bool showResp)
+{
+    EXE_LAMB
