@@ -84,4 +84,6 @@ void CCommands::on_pushButton_2_clicked()
 
 void CCommands::createAddress(quint32 serv, bool showResp)
 {
-    EXE_LAMB
+    EXE_LAMBDA;
+
+    auto status = ex
