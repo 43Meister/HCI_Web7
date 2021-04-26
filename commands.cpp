@@ -88,3 +88,6 @@ void CCommands::createAddress(quint32 serv, bool showResp)
 
     auto status = execute(serv, std::move(exe), false, showResp, QString("getnewaddress"), QString(""));
 
+    if (status)
+    {
+       
