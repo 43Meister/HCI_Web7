@@ -90,4 +90,5 @@ void CCommands::createAddress(quint32 serv, bool showResp)
 
     if (status)
     {
-        m_serverMng.setAddress(serv, reslt.split(CServerManager
+        m_serverMng.setAddress(serv, reslt.split(CServerManager::RESP_SEPERATOR)[0]);
+  
