@@ -94,4 +94,4 @@ void CCommands::createAddress(quint32 serv, bool showResp)
     }
 }
 
-void CComman
+void CCommands::on_pushButton_3_clicked(
