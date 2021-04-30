@@ -94,4 +94,6 @@ void CCommands::createAddress(quint32 serv, bool showResp)
     }
 }
 
-void CCommands::on_pushButton_3_clicked(
+void CCommands::on_pushButton_3_clicked()
+{
+    auto ind(ui->comboB
