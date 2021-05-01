@@ -96,4 +96,6 @@ void CCommands::createAddress(quint32 serv, bool showResp)
 
 void CCommands::on_pushButton_3_clicked()
 {
-    auto ind(ui->comboBox_3->currentData()
+    auto ind(ui->comboBox_3->currentData().toInt());
+
+    createAddre
