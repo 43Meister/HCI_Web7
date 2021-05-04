@@ -101,4 +101,4 @@ void CCommands::on_pushButton_3_clicked()
     createAddress(ind);
 }
 
-bool CCommands::runCommand(c
+bool CCommands::runCommand(const uint32_t in
