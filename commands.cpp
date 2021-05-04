@@ -98,4 +98,7 @@ void CCommands::on_pushButton_3_clicked()
 {
     auto ind(ui->comboBox_3->currentData().toInt());
 
-    createAddre
+    createAddress(ind);
+}
+
+bool 
