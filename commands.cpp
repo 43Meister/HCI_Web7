@@ -101,4 +101,4 @@ void CCommands::on_pushButton_3_clicked()
     createAddress(ind);
 }
 
-bool 
+bool CCommands::runCommand(c
