@@ -101,4 +101,6 @@ void CCommands::on_pushButton_3_clicked()
     createAddress(ind);
 }
 
-bool CCommands::runCommand(const uint32_t ind, bool showResp, const QString& cmd, const QStri
+bool CCommands::runCommand(const uint32_t ind, bool showResp, const QString& cmd, const QString& args, QString& reslt)
+{
+    
