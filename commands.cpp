@@ -103,4 +103,5 @@ void CCommands::on_pushButton_3_clicked()
 
 bool CCommands::runCommand(const uint32_t ind, bool showResp, const QString& cmd, const QString& args, QString& reslt)
 {
-    
+    bool rv(true);
+    std::string
