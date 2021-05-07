@@ -106,4 +106,6 @@ bool CCommands::runCommand(const uint32_t ind, bool showResp, const QString& cmd
     bool rv(true);
     std::string errMsg("");
 
-    QByteArray
+    QByteArray rawJason;
+
+    CServerMa
