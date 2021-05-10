@@ -108,4 +108,4 @@ bool CCommands::runCommand(const uint32_t ind, bool showResp, const QString& cmd
 
     QByteArray rawJason;
 
-    CServerManager::TStringMa
+    CServerManager::TStringMap resp(m_serverMng
