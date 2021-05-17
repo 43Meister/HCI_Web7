@@ -111,4 +111,6 @@ bool CCommands::runCommand(const uint32_t ind, bool showResp, const QString& cmd
     CServerManager::TStringMap resp(m_serverMng.sendMsg(ind, cmd, args, &rawJason));
 
     //qDebug() << "raw Response: [ " << rawJason << " ]";
-    LOGGER_HELPER(TRACE, errMsg, "Raw response from server: [ " , rawJason, "
+    LOGGER_HELPER(TRACE, errMsg, "Raw response from server: [ " , rawJason, " ]");
+
+    auto res = (resp.begin()
