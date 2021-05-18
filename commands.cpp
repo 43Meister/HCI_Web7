@@ -115,4 +115,4 @@ bool CCommands::runCommand(const uint32_t ind, bool showResp, const QString& cmd
 
     auto res = (resp.begin());
 
-    //qDebug() << res->fi
+    //qDebug() << res->first << ": [ " << res->secon
