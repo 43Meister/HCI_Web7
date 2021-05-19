@@ -116,4 +116,6 @@ bool CCommands::runCommand(const uint32_t ind, bool showResp, const QString& cmd
     auto res = (resp.begin());
 
     //qDebug() << res->first << ": [ " << res->second << " ]";
-    LOGGER_HELPER(TRACE, errMsg, res->first , ": [ ", res->second
+    LOGGER_HELPER(TRACE, errMsg, res->first , ": [ ", res->second, " ]");
+
+    if 
