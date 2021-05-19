@@ -118,4 +118,6 @@ bool CCommands::runCommand(const uint32_t ind, bool showResp, const QString& cmd
     //qDebug() << res->first << ": [ " << res->second << " ]";
     LOGGER_HELPER(TRACE, errMsg, res->first , ": [ ", res->second, " ]");
 
-    if (res->first != "Response"
+    if (res->first != "Response")
+    {
+        rv = fals
