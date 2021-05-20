@@ -120,4 +120,7 @@ bool CCommands::runCommand(const uint32_t ind, bool showResp, const QString& cmd
 
     if (res->first != "Response")
     {
-        rv = fals
+        rv = false;
+    }
+
+    reslt = res->
