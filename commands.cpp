@@ -123,4 +123,6 @@ bool CCommands::runCommand(const uint32_t ind, bool showResp, const QString& cmd
         rv = false;
     }
 
-    reslt = res->
+    reslt = res->second;
+
+    if (showRe
