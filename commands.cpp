@@ -127,4 +127,4 @@ bool CCommands::runCommand(const uint32_t ind, bool showResp, const QString& cmd
 
     if (showResp)
     {
-        m_
+        m_respShower.showFullRe
