@@ -130,4 +130,7 @@ bool CCommands::runCommand(const uint32_t ind, bool showResp, const QString& cmd
         m_respShower.showFullResp(res->first, res->second, cmd);
     }
 
-    re
+    return rv;
+}
+
+void CCommands:
