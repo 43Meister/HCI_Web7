@@ -133,4 +133,6 @@ bool CCommands::runCommand(const uint32_t ind, bool showResp, const QString& cmd
     return rv;
 }
 
-void CCommands::on_pushButton_4_cli
+void CCommands::on_pushButton_4_clicked()
+{
+    executeHe
