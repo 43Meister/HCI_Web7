@@ -133,4 +133,4 @@ bool CCommands::runCommand(const uint32_t ind, bool showResp, const QString& cmd
     return rv;
 }
 
-void CCommands:
+void CCommands::on_pushButton_4_cli
