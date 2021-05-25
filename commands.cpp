@@ -135,4 +135,7 @@ bool CCommands::runCommand(const uint32_t ind, bool showResp, const QString& cmd
 
 void CCommands::on_pushButton_4_clicked()
 {
-    executeHelper("getpeerinfo", ui
+    executeHelper("getpeerinfo", ui->comboBox_3);
+}
+
+void CComm
