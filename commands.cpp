@@ -138,4 +138,6 @@ void CCommands::on_pushButton_4_clicked()
     executeHelper("getpeerinfo", ui->comboBox_3);
 }
 
-void CCommands::on_pushButton_5
+void CCommands::on_pushButton_5_clicked()
+{
+    //auto ind(
