@@ -138,4 +138,4 @@ void CCommands::on_pushButton_4_clicked()
     executeHelper("getpeerinfo", ui->comboBox_3);
 }
 
-void CComm
+void CCommands::on_pushButton_5
