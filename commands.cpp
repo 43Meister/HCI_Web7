@@ -140,4 +140,4 @@ void CCommands::on_pushButton_4_clicked()
 
 void CCommands::on_pushButton_5_clicked()
 {
-    //auto ind(
+    //auto ind(ui->comboBox->currentData()
