@@ -142,4 +142,4 @@ void CCommands::on_pushButton_5_clicked()
 {
     //auto ind(ui->comboBox->currentData().toInt());
 
-    QStringList comm
+    QStringList commandAndArgs((ui->li
