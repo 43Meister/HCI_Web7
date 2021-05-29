@@ -144,4 +144,4 @@ void CCommands::on_pushButton_5_clicked()
 
     QStringList commandAndArgs((ui->lineEdit->text()).split(" ")); //create List of command variants
 
-    QStr
+    QString cmd = commandAndAr
