@@ -142,4 +142,6 @@ void CCommands::on_pushButton_5_clicked()
 {
     //auto ind(ui->comboBox->currentData().toInt());
 
-    QStringList commandAndArgs((ui->lineEdit->text()).split(" ")); //create List 
+    QStringList commandAndArgs((ui->lineEdit->text()).split(" ")); //create List of command variants
+
+    QStr
