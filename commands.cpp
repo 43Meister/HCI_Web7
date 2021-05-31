@@ -148,4 +148,4 @@ void CCommands::on_pushButton_5_clicked()
 
     commandAndArgs.removeFirst();
 
-    QStr
+    QString args = commandAnd
