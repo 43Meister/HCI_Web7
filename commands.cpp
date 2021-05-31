@@ -148,4 +148,6 @@ void CCommands::on_pushButton_5_clicked()
 
     commandAndArgs.removeFirst();
 
-    QString args = commandAnd
+    QString args = commandAndArgs.join(" ");
+
+    executeHelp
