@@ -146,4 +146,6 @@ void CCommands::on_pushButton_5_clicked()
 
     QString cmd = commandAndArgs[0];
 
-    commandA
+    commandAndArgs.removeFirst();
+
+    QStr
