@@ -150,4 +150,4 @@ void CCommands::on_pushButton_5_clicked()
 
     QString args = commandAndArgs.join(" ");
 
-    executeHelper(std::move(cmd), ui->c
+    executeHelper(std::move(cmd), ui->comboBox_3, nullptr
