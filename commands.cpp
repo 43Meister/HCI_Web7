@@ -152,4 +152,6 @@ void CCommands::on_pushButton_5_clicked()
 
     executeHelper(std::move(cmd), ui->comboBox_3, nullptr, true, std::move(args));
 
-  
+    //EXE_LAMBDA;
+
+    
