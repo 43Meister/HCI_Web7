@@ -154,4 +154,5 @@ void CCommands::on_pushButton_5_clicked()
 
     //EXE_LAMBDA;
 
-    //execute(ind, std::move(exe), false, t
+    //execute(ind, std::move(exe), false, true, cmd, args);
+}
