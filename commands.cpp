@@ -157,4 +157,4 @@ void CCommands::on_pushButton_5_clicked()
     //execute(ind, std::move(exe), false, true, cmd, args);
 }
 
-void CComma
+void CCommands::on_pushButton_6_clicked()
