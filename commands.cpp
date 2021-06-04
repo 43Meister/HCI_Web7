@@ -158,3 +158,5 @@ void CCommands::on_pushButton_5_clicked()
 }
 
 void CCommands::on_pushButton_6_clicked()
+{
+    static cargWindow argWin
