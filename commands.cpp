@@ -161,4 +161,4 @@ void CCommands::on_pushButton_6_clicked()
 {
     static cargWindow argWin;
 
-    auto ind(ui-
+    auto ind(ui->comboBox_3->currentDat
