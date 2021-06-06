@@ -163,4 +163,6 @@ void CCommands::on_pushButton_6_clicked()
 
     auto ind(ui->comboBox_3->currentData().toInt());
 
-    QStri
+    QString cmd("generate");
+
+    auto
