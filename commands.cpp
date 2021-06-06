@@ -161,4 +161,6 @@ void CCommands::on_pushButton_6_clicked()
 {
     static cargWindow argWin;
 
-    auto ind(ui->comboBox_3->currentDat
+    auto ind(ui->comboBox_3->currentData().toInt());
+
+    QStri
