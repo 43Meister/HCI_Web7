@@ -165,4 +165,6 @@ void CCommands::on_pushButton_6_clicked()
 
     QString cmd("generate");
 
-    auto subExeFunc([this, ind, cmd](const QS
+    auto subExeFunc([this, ind, cmd](const QString& args)->bool
+    {
+      
