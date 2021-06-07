@@ -165,4 +165,4 @@ void CCommands::on_pushButton_6_clicked()
 
     QString cmd("generate");
 
-    auto
+    auto subExeFunc([this
