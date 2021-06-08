@@ -167,4 +167,5 @@ void CCommands::on_pushButton_6_clicked()
 
     auto subExeFunc([this, ind, cmd](const QString& args)->bool
     {
-      
+        EXE_LAMBDA;
+       
