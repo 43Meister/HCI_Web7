@@ -168,4 +168,5 @@ void CCommands::on_pushButton_6_clicked()
     auto subExeFunc([this, ind, cmd](const QString& args)->bool
     {
         EXE_LAMBDA;
-        return execute(ind, std::move(exe), false, true
+        return execute(ind, std::move(exe), false, true, cmd, args);
+    });
