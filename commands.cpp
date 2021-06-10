@@ -170,3 +170,5 @@ void CCommands::on_pushButton_6_clicked()
         EXE_LAMBDA;
         return execute(ind, std::move(exe), false, true, cmd, args);
     });
+
+    argWin.show(std::mo
