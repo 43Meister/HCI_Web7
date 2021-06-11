@@ -174,4 +174,4 @@ void CCommands::on_pushButton_6_clicked()
     argWin.show(std::move(subExeFunc), "Number Of Blocks");
 }
 
-void 
+void CCommands::mine(qint32 ind
