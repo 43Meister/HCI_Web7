@@ -171,4 +171,4 @@ void CCommands::on_pushButton_6_clicked()
         return execute(ind, std::move(exe), false, true, cmd, args);
     });
 
-    argWin.show(std::mo
+    argWin.show(std::move(subExeFunc), "Number Of 
