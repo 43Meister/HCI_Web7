@@ -176,4 +176,4 @@ void CCommands::on_pushButton_6_clicked()
 
 void CCommands::mine(qint32 ind, qint32 blocks)
 {
-    QStri
+    QString cmd("generate"
