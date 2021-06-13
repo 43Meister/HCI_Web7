@@ -180,4 +180,6 @@ void CCommands::mine(qint32 ind, qint32 blocks)
 
     EXE_LAMBDA;
 
-    
+    QString args;
+
+    QT
