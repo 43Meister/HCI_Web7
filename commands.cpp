@@ -182,4 +182,6 @@ void CCommands::mine(qint32 ind, qint32 blocks)
 
     QString args;
 
-    QT
+    QTextStream ts(&args);
+
+    ts << 
