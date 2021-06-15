@@ -186,4 +186,8 @@ void CCommands::mine(qint32 ind, qint32 blocks)
 
     ts << blocks;
 
-    execute(ind, std::move(exe), false, 
+    execute(ind, std::move(exe), false, false, cmd, args);
+
+}
+
+void C
