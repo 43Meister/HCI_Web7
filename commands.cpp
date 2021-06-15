@@ -190,4 +190,4 @@ void CCommands::mine(qint32 ind, qint32 blocks)
 
 }
 
-void C
+void CCommands::on_pushButton_
