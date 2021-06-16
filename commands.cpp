@@ -192,4 +192,4 @@ void CCommands::mine(qint32 ind, qint32 blocks)
 
 void CCommands::on_pushButton_7_clicked()
 {
-    static 
+    static cargWindow argWin;
