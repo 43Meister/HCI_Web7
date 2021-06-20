@@ -196,4 +196,4 @@ void CCommands::on_pushButton_7_clicked()
     auto indSender(ui->comboBox->currentData().toInt());
     auto indRecvr(ui->comboBox_2->currentData().toInt());
 
-    QString cm
+    QString cmd("sendtoaddress");
