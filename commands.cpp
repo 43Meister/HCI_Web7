@@ -194,4 +194,6 @@ void CCommands::on_pushButton_7_clicked()
 {
     static cargWindow argWin;
     auto indSender(ui->comboBox->currentData().toInt());
-    auto indRecvr(ui->comboBox_2->currentData().toInt())
+    auto indRecvr(ui->comboBox_2->currentData().toInt());
+
+    QString cm
