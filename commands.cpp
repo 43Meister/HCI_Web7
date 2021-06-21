@@ -197,3 +197,5 @@ void CCommands::on_pushButton_7_clicked()
     auto indRecvr(ui->comboBox_2->currentData().toInt());
 
     QString cmd("sendtoaddress");
+
+    //only if the rcvr
