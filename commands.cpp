@@ -198,4 +198,5 @@ void CCommands::on_pushButton_7_clicked()
 
     QString cmd("sendtoaddress");
 
-    //only if the rcvr
+    //only if the rcvr is selected
+    if
