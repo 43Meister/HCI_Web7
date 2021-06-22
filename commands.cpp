@@ -201,4 +201,5 @@ void CCommands::on_pushButton_7_clicked()
     //only if the rcvr is selected
     if (indRecvr != -1)
     {
-        QString add(m_serverMng.getAddress(
+        QString add(m_serverMng.getAddress(indRecvr));
+        add 
