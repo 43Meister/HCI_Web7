@@ -202,4 +202,6 @@ void CCommands::on_pushButton_7_clicked()
     if (indRecvr != -1)
     {
         QString add(m_serverMng.getAddress(indRecvr));
-        add 
+        add += " ";
+
+        auto su
