@@ -204,4 +204,4 @@ void CCommands::on_pushButton_7_clicked()
         QString add(m_serverMng.getAddress(indRecvr));
         add += " ";
 
-        auto su
+        auto subExeFunc([this, indS
