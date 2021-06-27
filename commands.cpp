@@ -208,4 +208,6 @@ void CCommands::on_pushButton_7_clicked()
         {
             EXE_LAMBDA;
             return execute(indSender, std::move(exe), false, true, cmd, add + args);
-      
+        });
+
+        argWin.
