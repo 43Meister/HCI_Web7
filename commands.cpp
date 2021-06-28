@@ -210,4 +210,4 @@ void CCommands::on_pushButton_7_clicked()
             return execute(indSender, std::move(exe), false, true, cmd, add + args);
         });
 
-        argWin.
+        argWin.show(std::move(subExeFunc)
