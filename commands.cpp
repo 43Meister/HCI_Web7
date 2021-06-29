@@ -212,3 +212,6 @@ void CCommands::on_pushButton_7_clicked()
 
         argWin.show(std::move(subExeFunc), "Number Of Coins");
     }
+}
+
+void CCommands::addNode(quin
