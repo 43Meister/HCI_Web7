@@ -214,4 +214,6 @@ void CCommands::on_pushButton_7_clicked()
     }
 }
 
-void CCommands::addNode(quint32 sndrId, quint32 rcv
+void CCommands::addNode(quint32 sndrId, quint32 rcvrId, bool showResp)
+{
+    
