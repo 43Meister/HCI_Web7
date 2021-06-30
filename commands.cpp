@@ -216,4 +216,4 @@ void CCommands::on_pushButton_7_clicked()
 
 void CCommands::addNode(quint32 sndrId, quint32 rcvrId, bool showResp)
 {
-    
+    auto sndrIp(m_serverMng.get
