@@ -222,4 +222,4 @@ void CCommands::addNode(quint32 sndrId, quint32 rcvrId, bool showResp)
     addNode(sndrId ,sndrIp, rcvrIp, showResp);
 }
 
-void CCommands::addNode(quint32 sndrId, QString& s
+void CCommands::addNode(quint32 sndrId, QString& sndrIp, QString& rcvrI
