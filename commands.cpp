@@ -226,4 +226,4 @@ void CCommands::addNode(quint32 sndrId, QString& sndrIp, QString& rcvrIp, bool s
 {
     auto cmd("addnode");
 
-    if (sndr
+    if (sndrIp != CServerManager::INVAL
