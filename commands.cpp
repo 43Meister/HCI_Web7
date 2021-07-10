@@ -228,4 +228,4 @@ void CCommands::addNode(quint32 sndrId, QString& sndrIp, QString& rcvrIp, bool s
 
     if (sndrIp != CServerManager::INVALID_IP && rcvrIp != CServerManager::INVALID_IP)
     {
-      
+        auto args = rcvrIp +
