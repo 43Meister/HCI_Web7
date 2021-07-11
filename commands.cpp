@@ -230,4 +230,4 @@ void CCommands::addNode(quint32 sndrId, QString& sndrIp, QString& rcvrIp, bool s
     {
         auto args = rcvrIp + " onetry";
         EXE_LAMBDA;
-        execute(sndr
+        execute(sndrId, std::move(exe), 
