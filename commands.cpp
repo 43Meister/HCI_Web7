@@ -237,4 +237,4 @@ void CCommands::addNode(quint32 sndrId, QString& sndrIp, QString& rcvrIp, bool s
 void CCommands::on_pushButton_8_clicked()
 {
     auto sndrInd(ui->comboBox->currentData().toInt());
-    auto rc
+    auto rcvrInd(ui->comboBox
