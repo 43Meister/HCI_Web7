@@ -239,4 +239,7 @@ void CCommands::on_pushButton_8_clicked()
     auto sndrInd(ui->comboBox->currentData().toInt());
     auto rcvrInd(ui->comboBox_2->currentData().toInt());
 
-    addNode(sndrInd,
+    addNode(sndrInd, rcvrInd);
+}
+
+void CCommands::
