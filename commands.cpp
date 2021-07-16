@@ -242,4 +242,6 @@ void CCommands::on_pushButton_8_clicked()
     addNode(sndrInd, rcvrInd);
 }
 
-void CCommands::on_pushButton_9_clicked
+void CCommands::on_pushButton_9_clicked()
+{
+    executeHelpe
