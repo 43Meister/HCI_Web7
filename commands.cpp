@@ -244,4 +244,4 @@ void CCommands::on_pushButton_8_clicked()
 
 void CCommands::on_pushButton_9_clicked()
 {
-    executeHelpe
+    executeHelper("getinfo", ui->comboBox_3);
