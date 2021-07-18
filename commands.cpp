@@ -249,4 +249,7 @@ void CCommands::on_pushButton_9_clicked()
 
 void CCommands::on_pushButton_10_clicked()
 {
-    executeHelper("getblockchaininfo", ui->combo
+    executeHelper("getblockchaininfo", ui->comboBox_3);
+}
+
+QVector<quint32>
