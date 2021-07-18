@@ -252,4 +252,4 @@ void CCommands::on_pushButton_10_clicked()
     executeHelper("getblockchaininfo", ui->comboBox_3);
 }
 
-QVector<quint32>
+QVector<quint32> CCommands::getActi
