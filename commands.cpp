@@ -254,4 +254,6 @@ void CCommands::on_pushButton_10_clicked()
 
 QVector<quint32> CCommands::getActiveServerList()
 {
-    QVecto
+    QVector<quint32> rv;
+
+    auto 
