@@ -256,4 +256,4 @@ QVector<quint32> CCommands::getActiveServerList()
 {
     QVector<quint32> rv;
 
-    auto 
+    auto data = std::move(CServerM
