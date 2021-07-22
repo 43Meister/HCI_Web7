@@ -258,4 +258,4 @@ QVector<quint32> CCommands::getActiveServerList()
 
     auto data = std::move(CServerManager::getReference().getTableData());
 
-    for 
+    for (auto& outer : da
