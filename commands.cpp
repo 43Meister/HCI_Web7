@@ -260,4 +260,4 @@ QVector<quint32> CCommands::getActiveServerList()
 
     for (auto& outer : data)
     {
-        if (outer.second[CServerManager::S
+        if (outer.second[CServerManager::STATUS] == CServerManager:
