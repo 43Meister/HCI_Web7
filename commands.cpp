@@ -268,3 +268,5 @@ QVector<quint32> CCommands::getActiveServerList()
 
     return rv;
 }
+
+void CCommands::re
