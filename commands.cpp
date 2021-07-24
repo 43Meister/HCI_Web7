@@ -262,4 +262,5 @@ QVector<quint32> CCommands::getActiveServerList()
     {
         if (outer.second[CServerManager::STATUS] == CServerManager::ACTIVE)
         {
-            rv.push_
+            rv.push_back(outer.first);
+     
