@@ -271,4 +271,6 @@ QVector<quint32> CCommands::getActiveServerList()
 
 void CCommands::regAllServer()
 {
-    std::string errMsg(
+    std::string errMsg("");
+
+    auto servers = getAct
