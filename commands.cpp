@@ -273,4 +273,6 @@ void CCommands::regAllServer()
 {
     std::string errMsg("");
 
-    auto servers = getAct
+    auto servers = getActiveServerList();
+
+    f
