@@ -275,4 +275,6 @@ void CCommands::regAllServer()
 
     auto servers = getActiveServerList();
 
-    for (auto regIter(servers.begin()); regIter != servers.end(); re
+    for (auto regIter(servers.begin()); regIter != servers.end(); regIter++)
+    {
+      
