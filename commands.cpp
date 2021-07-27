@@ -277,4 +277,4 @@ void CCommands::regAllServer()
 
     for (auto regIter(servers.begin()); regIter != servers.end(); regIter++)
     {
-      
+        for (auto acceptIte
