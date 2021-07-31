@@ -279,3 +279,4 @@ void CCommands::regAllServer()
     {
         for (auto acceptIter(regIter+1); acceptIter != servers.end(); acceptIter++)
         {
+            LOGGER_HEL
