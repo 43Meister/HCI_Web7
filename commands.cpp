@@ -279,4 +279,4 @@ void CCommands::regAllServer()
     {
         for (auto acceptIter(regIter+1); acceptIter != servers.end(); acceptIter++)
         {
-            LOGGER_HEL
+            LOGGER_HELPER(TRACE, errMsg, "Registeri
