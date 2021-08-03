@@ -281,4 +281,5 @@ void CCommands::regAllServer()
         {
             LOGGER_HELPER(TRACE, errMsg, "Registering servers: [ ", *regIter, " ]" ,
                           " and [ ", *acceptIter, " ]");
-            addNod
+            addNode(*regIter, *acceptIter, false);
+   
