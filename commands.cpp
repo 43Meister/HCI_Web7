@@ -286,4 +286,4 @@ void CCommands::regAllServer()
     }
 }
 
-void CCommands:
+void CCommands::createAddForAll()
