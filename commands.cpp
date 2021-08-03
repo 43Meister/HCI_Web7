@@ -287,3 +287,5 @@ void CCommands::regAllServer()
 }
 
 void CCommands::createAddForAll()
+{
+    std::string errMsg(
