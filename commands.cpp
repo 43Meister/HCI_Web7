@@ -292,4 +292,6 @@ void CCommands::createAddForAll()
 
     auto servers = getActiveServerList();
 
-    for (auto serv : ser
+    for (auto serv : servers)
+    {
+        createAddress(serv, f
