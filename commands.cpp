@@ -290,4 +290,4 @@ void CCommands::createAddForAll()
 {
     std::string errMsg("");
 
-    auto serve
+    auto servers = getActiveServerList
