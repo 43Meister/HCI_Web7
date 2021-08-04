@@ -288,4 +288,6 @@ void CCommands::regAllServer()
 
 void CCommands::createAddForAll()
 {
-    std::string errMsg(
+    std::string errMsg("");
+
+    auto serve
