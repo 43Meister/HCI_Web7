@@ -298,4 +298,4 @@ void CCommands::createAddForAll()
     }
 }
 
-void CCommands:
+void CCommands::on_pushButton_11
