@@ -294,4 +294,8 @@ void CCommands::createAddForAll()
 
     for (auto serv : servers)
     {
-        createAddress(serv, f
+        createAddress(serv, false);
+    }
+}
+
+void CCommands:
