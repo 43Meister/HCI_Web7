@@ -300,4 +300,7 @@ void CCommands::createAddForAll()
 
 void CCommands::on_pushButton_11_clicked()
 {
-    regAllServer
+    regAllServer();
+}
+
+void CCommands::on_push
