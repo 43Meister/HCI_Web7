@@ -298,4 +298,6 @@ void CCommands::createAddForAll()
     }
 }
 
-void CCommands::on_pushButton_11
+void CCommands::on_pushButton_11_clicked()
+{
+    regAllServer
