@@ -303,4 +303,5 @@ void CCommands::on_pushButton_11_clicked()
     regAllServer();
 }
 
-void CCommands::on_push
+void CCommands::on_pushButton_12_clicked()
+{
