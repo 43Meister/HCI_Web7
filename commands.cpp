@@ -305,3 +305,4 @@ void CCommands::on_pushButton_11_clicked()
 
 void CCommands::on_pushButton_12_clicked()
 {
+    executeHelper("
