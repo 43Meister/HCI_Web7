@@ -308,4 +308,4 @@ void CCommands::on_pushButton_12_clicked()
     executeHelper("listtransactions", ui->comboBox_3);
 }
 
-void CCommands:
+void CCommands::on_pushButton_13_cl
