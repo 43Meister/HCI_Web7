@@ -310,4 +310,4 @@ void CCommands::on_pushButton_12_clicked()
 
 void CCommands::on_pushButton_13_clicked()
 {
-    executeHelper("dumpwallet", ui
+    executeHelper("dumpwallet", ui->comboBox_3, nullptr, t
