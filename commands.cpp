@@ -310,4 +310,8 @@ void CCommands::on_pushButton_12_clicked()
 
 void CCommands::on_pushButton_13_clicked()
 {
-    executeHelper("dumpwallet", ui->comboBox_3, nullptr, true, QString("wall
+    executeHelper("dumpwallet", ui->comboBox_3, nullptr, true, QString("walletInfo.txt"));
+}
+
+
+void CComm
