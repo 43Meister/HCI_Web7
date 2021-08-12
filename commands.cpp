@@ -314,4 +314,4 @@ void CCommands::on_pushButton_13_clicked()
 }
 
 
-void CComm
+void CCommands::executeHelper(QStri
