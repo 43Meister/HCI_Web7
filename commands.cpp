@@ -314,4 +314,4 @@ void CCommands::on_pushButton_13_clicked()
 }
 
 
-void CCommands::executeHelper(QStri
+void CCommands::executeHelper(QString cmd, QComboBox* b
