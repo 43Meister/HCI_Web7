@@ -314,4 +314,6 @@ void CCommands::on_pushButton_13_clicked()
 }
 
 
-void CCommands::executeHelper(QString cmd, QComboBox* box1, QComboBox* /*box2*/, bool showReps, 
+void CCommands::executeHelper(QString cmd, QComboBox* box1, QComboBox* /*box2*/, bool showReps, QString args)
+{
+    aut
