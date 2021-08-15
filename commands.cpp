@@ -319,3 +319,5 @@ void CCommands::executeHelper(QString cmd, QComboBox* box1, QComboBox* /*box2*/,
     auto ind1(box1->currentData().toInt());
 
     EXE_LAMBDA;
+
+    execute(ind1, st
