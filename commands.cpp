@@ -320,4 +320,4 @@ void CCommands::executeHelper(QString cmd, QComboBox* box1, QComboBox* /*box2*/,
 
     EXE_LAMBDA;
 
-    execute(ind1, st
+    execute(ind1, std::move(exe), false
