@@ -323,4 +323,8 @@ void CCommands::executeHelper(QString cmd, QComboBox* box1, QComboBox* /*box2*/,
     execute(ind1, std::move(exe), false, showReps, cmd, args);
 }
 
-double CCommands::getBalance(qint32 ind, bool showResp
+double CCommands::getBalance(qint32 ind, bool showResp)
+{
+    EXE_LAMBDA;
+
+    auto sta
