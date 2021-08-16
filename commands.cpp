@@ -323,4 +323,4 @@ void CCommands::executeHelper(QString cmd, QComboBox* box1, QComboBox* /*box2*/,
     execute(ind1, std::move(exe), false, showReps, cmd, args);
 }
 
-double CComm
+double CCommands::getBalance(qi
