@@ -327,4 +327,4 @@ double CCommands::getBalance(qint32 ind, bool showResp)
 {
     EXE_LAMBDA;
 
-    auto sta
+    auto status = execute(ind, st
