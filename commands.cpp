@@ -333,4 +333,4 @@ double CCommands::getBalance(qint32 ind, bool showResp)
 
     if (status)
     {
-        balance 
+        balance = reslt.split(CServerManager::RE
