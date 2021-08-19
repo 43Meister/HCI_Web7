@@ -329,4 +329,6 @@ double CCommands::getBalance(qint32 ind, bool showResp)
 
     auto status = execute(ind, std::move(exe), false, showResp, QString("getbalance"), QString(""));
 
-    QStringList balanc
+    QStringList balance;
+
+    if (stat
