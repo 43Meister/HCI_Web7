@@ -331,4 +331,6 @@ double CCommands::getBalance(qint32 ind, bool showResp)
 
     QStringList balance;
 
-    if (stat
+    if (status)
+    {
+        balance 
