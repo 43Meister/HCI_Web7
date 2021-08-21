@@ -334,4 +334,5 @@ double CCommands::getBalance(qint32 ind, bool showResp)
     if (status)
     {
         balance = reslt.split(CServerManager::RESP_SEPERATOR);
-        m_serverMng.setBalance(ind, b
+        m_serverMng.setBalance(ind, balance[0].toFloat());
+    }
