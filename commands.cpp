@@ -336,3 +336,5 @@ double CCommands::getBalance(qint32 ind, bool showResp)
         balance = reslt.split(CServerManager::RESP_SEPERATOR);
         m_serverMng.setBalance(ind, balance[0].toFloat());
     }
+
+    return balance[0].to
