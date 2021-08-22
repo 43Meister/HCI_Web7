@@ -337,4 +337,7 @@ double CCommands::getBalance(qint32 ind, bool showResp)
         m_serverMng.setBalance(ind, balance[0].toFloat());
     }
 
-    return balance[0].to
+    return balance[0].toFloat();
+}
+
+void CCommands:
