@@ -340,4 +340,4 @@ double CCommands::getBalance(qint32 ind, bool showResp)
     return balance[0].toFloat();
 }
 
-void CCommands:
+void CCommands::sendCoins(qint3
