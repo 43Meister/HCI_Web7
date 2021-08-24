@@ -342,4 +342,6 @@ double CCommands::getBalance(qint32 ind, bool showResp)
 
 void CCommands::sendCoins(qint32 sendr, qint32 rcvr, quint32 amount, bool showResp)
 {
-    QString cmd("
+    QString cmd("sendtoaddress");
+
+  
