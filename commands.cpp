@@ -345,4 +345,4 @@ void CCommands::sendCoins(qint32 sendr, qint32 rcvr, quint32 amount, bool showRe
     QString cmd("sendtoaddress");
 
     QString add(m_serverMng.getAddress(rcvr));
-    QStri
+    QString args = QString:
