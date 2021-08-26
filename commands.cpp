@@ -346,4 +346,7 @@ void CCommands::sendCoins(qint32 sendr, qint32 rcvr, quint32 amount, bool showRe
 
     QString add(m_serverMng.getAddress(rcvr));
     QString args = QString::number(amount);
-    add
+    add += " ";
+    EXE_LAMBDA;
+
+   
