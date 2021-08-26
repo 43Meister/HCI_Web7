@@ -349,4 +349,4 @@ void CCommands::sendCoins(qint32 sendr, qint32 rcvr, quint32 amount, bool showRe
     add += " ";
     EXE_LAMBDA;
 
-   
+    execute(sendr, std::move
