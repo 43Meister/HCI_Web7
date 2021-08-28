@@ -354,4 +354,7 @@ void CCommands::sendCoins(qint32 sendr, qint32 rcvr, quint32 amount, bool showRe
 
 void CCommands::on_pushButton_14_clicked()
 {
-    cre
+    createAddForAll();
+}
+
+QString
