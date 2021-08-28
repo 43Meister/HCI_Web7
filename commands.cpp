@@ -357,4 +357,4 @@ void CCommands::on_pushButton_14_clicked()
     createAddForAll();
 }
 
-QString
+QStringList CCommands::getMiningInfo(qint
