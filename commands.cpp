@@ -352,4 +352,4 @@ void CCommands::sendCoins(qint32 sendr, qint32 rcvr, quint32 amount, bool showRe
     execute(sendr, std::move(exe), false, showResp, cmd, add + args);
 }
 
-void C
+void CCommands::on_pushButton
