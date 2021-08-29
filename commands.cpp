@@ -359,4 +359,5 @@ void CCommands::on_pushButton_14_clicked()
 
 QStringList CCommands::getMiningInfo(qint32 ind)
 {
-    QStringLi
+    QStringList rv;
+    QString cm
