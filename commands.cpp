@@ -361,4 +361,6 @@ QStringList CCommands::getMiningInfo(qint32 ind)
 {
     QStringList rv;
     QString cmd{"getmininginfo"};
-    auto
+    auto args{QString("")};
+
+    /
