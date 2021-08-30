@@ -363,4 +363,4 @@ QStringList CCommands::getMiningInfo(qint32 ind)
     QString cmd{"getmininginfo"};
     auto args{QString("")};
 
-    //we want to have an empty s
+    //we want to have an empty string list as a referanc
