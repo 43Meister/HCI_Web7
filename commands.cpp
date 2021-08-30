@@ -366,4 +366,6 @@ QStringList CCommands::getMiningInfo(qint32 ind)
     //we want to have an empty string list as a referance
     rv.clear();
 
-    EXE_L
+    EXE_LAMBDA;
+
+    auto res = 
