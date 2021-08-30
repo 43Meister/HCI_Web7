@@ -363,4 +363,7 @@ QStringList CCommands::getMiningInfo(qint32 ind)
     QString cmd{"getmininginfo"};
     auto args{QString("")};
 
-    //we want to have an empty string list as a referanc
+    //we want to have an empty string list as a referance
+    rv.clear();
+
+    EXE_L
