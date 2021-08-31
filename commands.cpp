@@ -368,4 +368,4 @@ QStringList CCommands::getMiningInfo(qint32 ind)
 
     EXE_LAMBDA;
 
-    auto res = 
+    auto res =  execute(ind, std::mov
