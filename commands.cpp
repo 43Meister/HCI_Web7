@@ -372,4 +372,4 @@ QStringList CCommands::getMiningInfo(qint32 ind)
 
     if  (res)
     {
-        rv = std::move(resl
+        rv = std::move(reslt.split(CServerManager
