@@ -379,4 +379,4 @@ QStringList CCommands::getMiningInfo(qint32 ind)
 }
 
 
-v
+void CCommands::on_push
