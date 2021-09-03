@@ -382,4 +382,4 @@ QStringList CCommands::getMiningInfo(qint32 ind)
 void CCommands::on_pushButton_15_clicked()
 {
     std::string errMsg("");
-   
+    QString MASTER_I
