@@ -386,4 +386,5 @@ void CCommands::on_pushButton_15_clicked()
 
     auto servers = getActiveServerList();
 
-    for (
+    for (auto serv : servers)
+    
