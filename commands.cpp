@@ -384,4 +384,4 @@ void CCommands::on_pushButton_15_clicked()
     std::string errMsg("");
     QString MASTER_IP("172.17.0.2");
 
-    au
+    auto servers = getActiveSe
