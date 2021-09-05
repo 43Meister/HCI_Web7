@@ -388,4 +388,6 @@ void CCommands::on_pushButton_15_clicked()
 
     for (auto serv : servers)
     {
-        auto sndrIp(m_serverMng.get
+        auto sndrIp(m_serverMng.getIp(serv));
+
+        addNod
