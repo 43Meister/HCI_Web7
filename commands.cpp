@@ -387,4 +387,5 @@ void CCommands::on_pushButton_15_clicked()
     auto servers = getActiveServerList();
 
     for (auto serv : servers)
-    
+    {
+        auto sndrIp
