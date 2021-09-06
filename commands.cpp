@@ -390,4 +390,4 @@ void CCommands::on_pushButton_15_clicked()
     {
         auto sndrIp(m_serverMng.getIp(serv));
 
-        addNod
+        addNode(serv, sndrIp, MASTER_I
