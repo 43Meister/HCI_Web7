@@ -76,3 +76,26 @@ private slots:
 private:
 
     bool runCommand(const uint32_t ind, bool showResp, const QString& cmd, const QString& args, QString& reslt);
+
+    void initCombo(QComboBox* combo, CServerManager::TServTable& data);
+
+    QVector<quint32> getActiveServerList();
+
+    template <typename TFunc, typename TRet = decltype((std::declval<TFunc>())()), typename... TArgs>
+    TRet execute(int32_t ind, TFunc exe, TRet badVal, bool showResp, TArgs&&... args)
+    {
+        TRet rv(badVal);
+
+        if (ind > -1)
+        {
+           rv = exe(ind, showResp, std::forward<TArgs>(args)...);
+        }
+
+        return rv;
+    }
+
+    void executeHelper(QString cmd, QComboBox* box1, QComboBox* box2 = nullptr, bool showeReps = true, QString args = "");
+
+    void mine(qint32 ind, qint32 blocks);
+
+    double getBalance(qint32 ind, bool showResp = true);
