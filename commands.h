@@ -99,3 +99,18 @@ private:
     void mine(qint32 ind, qint32 blocks);
 
     double getBalance(qint32 ind, bool showResp = true);
+
+    void sendCoins(qint32 sendr, qint32 rcvr, quint32 amount, bool showResp = true);
+
+    QStringList getMiningInfo(qint32 ind);
+
+    void addNode(quint32 sndrId, QString& sndrIp, QString& rcvrIp, bool showResp = true);
+
+    Ui::CCommands *ui;
+
+    CServerManager& m_serverMng = CServerManager::getReference();
+    int m_index = -1;
+    CShowResp m_respShower;
+};
+
+#endif // COMMANDS_H
