@@ -90,3 +90,28 @@
   <widget class="QPushButton" name="pushButton_4">
    <property name="geometry">
     <rect>
+     <x>310</x>
+     <y>90</y>
+     <width>121</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(204, 236, 242);
+selection-color: rgb(239, 81, 15);
+selection-background-color: rgb(239, 81, 15);</string>
+   </property>
+   <property name="text">
+    <string>Get Peers</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>250</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
