@@ -169,3 +169,26 @@ selection-background-color: rgb(239, 81, 15);</string>
    <item>
     <property name="text">
      <string>None</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>170</y>
+     <width>121</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(204, 236, 242);</string>
+   </property>
+   <property name="text">
+    <string>Mine</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_7">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
