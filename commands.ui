@@ -212,3 +212,34 @@ selection-background-color: rgb(239, 81, 15);</string>
      <width>111</width>
      <height>27</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(204, 236, 242);</string>
+   </property>
+   <property name="text">
+    <string>Add Node</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_9">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>130</y>
+     <width>111</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(204, 236, 242);</string>
+   </property>
+   <property name="text">
+    <string>Get Info</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_11">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>530</y>
+     <width>131</width>
+     <height>27</height>
