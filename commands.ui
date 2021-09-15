@@ -419,3 +419,25 @@ selection-background-color: rgb(239, 81, 15);</string>
     <string notr="true">background-color: rgb(204, 236, 242);</string>
    </property>
    <property name="text">
+    <string>Create Accounts</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_15">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>530</y>
+     <width>141</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(204, 236, 242);</string>
+   </property>
+   <property name="text">
+    <string>Load Last Seassion</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
