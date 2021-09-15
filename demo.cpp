@@ -44,3 +44,19 @@ void CDemo::show()
     std::string("==================================================================\n\t\t") +
     "!!!!DEMO START!!!! \n" +
     "==================================================================");
+
+    //start the logreader task
+    m_logReaderTask = std::make_unique<std::thread>
+    (std::thread([this]()
+    {
+        this->m_logReader->mainFunc(this->m_stream);
+    }));
+
+    m_logReader->start();
+
+    m_logReaderTask->detach();
+
+    QDialog::show();
+}
+
+CDemo::~CDemo()
