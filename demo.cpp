@@ -60,3 +60,18 @@ void CDemo::show()
 }
 
 CDemo::~CDemo()
+{
+    delete ui;
+}
+
+void CDemo::on_pushButton_clicked()
+{
+    m_miner->stop();
+    m_player->stop();
+    m_logReader->stop();
+    hide();
+}
+
+void CDemo::on_pushButton_2_clicked()
+{
+    std::string errMsg("");
