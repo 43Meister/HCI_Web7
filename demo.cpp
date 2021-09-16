@@ -75,3 +75,32 @@ void CDemo::on_pushButton_clicked()
 void CDemo::on_pushButton_2_clicked()
 {
     std::string errMsg("");
+    auto servers = g_commands->getActiveServerList();
+
+    if (servers.size() > 1)
+    {
+        //create miner and players
+        auto miner = servers[0];
+        servers.pop_front(); //remove the miner
+
+        //create the sync point
+        m_playersFeture = m_minerPromise.get_future();
+
+        //first step is to register all servers
+        g_commands->regAllServer();
+
+        //now create accounts for all servers
+        g_commands->createAddForAll();
+
+        //creating the demo taks
+        m_minerTask = std::make_unique<std::thread>
+        (std::thread([this, miner, servers]()
+        {
+            (this->m_miner)->minerMain(miner, std::move(servers), this->m_minerPromise);
+        }));
+
+        m_playerTask = std::make_unique<std::thread>
+        (std::thread([this, servers]()
+        {
+            (this->m_player)->playerMain(this->m_miner, std::move(servers), this->m_playersFeture);
+        }));
