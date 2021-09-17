@@ -130,3 +130,32 @@ void CDemo::SMiner::distCash()
         LOGGER_HELPER(INFO, errMsg, QString("Amount left"), balance, " ]");
 
         g_commands->sendCoins(miner, serv, amount, false);
+
+        //exit loop if no more bitcoins left.
+        if (balance <= 0)
+        {
+            break;
+        }
+    }
+}
+
+void CDemo::SMiner::init(qint32 a_miner, QVector<quint32> a_players)
+{
+    std::string errMsg("");
+
+    LOGGER_HELPER(INFO, errMsg, "Starting init proccess");
+
+    miner = a_miner;
+    players = a_players;
+
+    setCount();
+
+    //mine 102 blocks and get 100 bitcoins
+    g_commands->mine(miner, 102);
+
+    LOGGER_HELPER(INFO, errMsg, "Mined 102 blocks and now the miner has a total value of 100 bitcoins");
+
+    //distrebute cash between active players
+    distCash();
+
+    //now we have to mine 6 more block so that the distrebution will work
