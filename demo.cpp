@@ -104,3 +104,29 @@ void CDemo::on_pushButton_2_clicked()
         {
             (this->m_player)->playerMain(this->m_miner, std::move(servers), this->m_playersFeture);
         }));
+
+        m_minerTask->detach();
+        m_playerTask->detach();
+
+    }
+    else
+    {
+        LOGGER_HELPER(ERROR, errMsg, "Not enugh active server for demo to run properly , need at least 2 server");
+    }
+}
+
+void CDemo::SMiner::distCash()
+{
+    std::string errMsg("");
+
+    auto balance = g_commands->getBalance(miner, false);
+    LOGGER_HELPER(INFO, errMsg, "Distrebuting [ ", balance, " ] bitcoins between users");
+
+    for (auto serv : players)
+    {
+        auto amount = CDemo::getAmount(balance);
+        balance -= amount;
+        LOGGER_HELPER(INFO, errMsg, QString("Sending [ "), amount, " ] coins to server [ ", serv , " ]");
+        LOGGER_HELPER(INFO, errMsg, QString("Amount left"), balance, " ]");
+
+        g_commands->sendCoins(miner, serv, amount, false);
