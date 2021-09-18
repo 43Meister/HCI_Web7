@@ -204,3 +204,37 @@ void CDemo::SMiner::minerMain(qint32 a_miner, QVector<quint32> a_players, std::p
             minings++;
 
             if (minings == MAX_MININGS)
+            {
+                //get current mining information
+                auto miningInfo = g_commands->getMiningInfo(miner);
+                minings = 0;
+
+                LOGGER_HELPER(INFO, errMsg, "Current mining info: [ ", miningInfo, " ]");
+
+                if (firstTime)
+                {
+                    //distrebute earnings between the players
+                    //distCash();
+                    firstTime = false;
+                }
+            }
+
+            printBalanceOfAllPlayers();
+        }
+        else
+        {
+            std::this_thread::sleep_for(SLEEP_TIME);
+        }
+
+        stopMe.clear();
+    }
+}
+
+void CDemo::SPlayer::init(CDemo::TMinerSptr a_miner, QVector<quint32> a_players)
+{
+    std::string errMsg("");
+    LOGGER_HELPER(INFO, errMsg, "Starting init proccess");
+
+    miner = a_miner;
+    players = std::move(a_players);
+    vectSize = players.size();
