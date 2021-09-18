@@ -181,3 +181,26 @@ void CDemo::SMiner::minerMain(qint32 a_miner, QVector<quint32> a_players, std::p
 {
     const auto SLEEP_TIME(2s);
     const auto MAX_MININGS(6);
+    static bool firstTime{true};
+
+    qint32 minings(1);
+    std::string errMsg("");
+
+    init(a_miner, std::move(a_players));
+
+    //after init is done release the players
+    p.set_value();
+
+    LOGGER_HELPER(INFO, errMsg, "Miner started working");
+
+    //while flase
+    while (!stopMe.test_and_set())
+    {
+        if (operCount.load() >= currMaxOpers)
+        {
+            g_commands->mine(miner, 1); //mine one block
+            reset();
+            setCount();
+            minings++;
+
+            if (minings == MAX_MININGS)
