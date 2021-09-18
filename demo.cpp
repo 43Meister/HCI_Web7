@@ -159,3 +159,25 @@ void CDemo::SMiner::init(qint32 a_miner, QVector<quint32> a_players)
     distCash();
 
     //now we have to mine 6 more block so that the distrebution will work
+    g_commands->mine(miner, 6);
+}
+
+void CDemo::SMiner::printBalanceOfAllPlayers()
+{
+    std::string errMsg("");
+    auto balance = g_commands->getBalance(miner, false);
+
+    LOGGER_HELPER(INFO, errMsg, QString("The balance of the Miner is ["), balance , "]");
+
+    for (auto ind : players)
+    {
+        balance = g_commands->getBalance(ind, false);
+
+        LOGGER_HELPER(INFO, errMsg, QString("The balance of the player ["), ind, "] is [", balance , "]");
+    }
+}
+
+void CDemo::SMiner::minerMain(qint32 a_miner, QVector<quint32> a_players, std::promise<void>& p)
+{
+    const auto SLEEP_TIME(2s);
+    const auto MAX_MININGS(6);
