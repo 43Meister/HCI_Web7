@@ -238,3 +238,27 @@ void CDemo::SPlayer::init(CDemo::TMinerSptr a_miner, QVector<quint32> a_players)
     miner = a_miner;
     players = std::move(a_players);
     vectSize = players.size();
+
+    LOGGER_HELPER(INFO, errMsg, QString("init players ["), players,
+                                        "] Num of players [ ", vectSize, "]");
+
+}
+
+void CDemo::SPlayer::playerMain(TMinerSptr a_miner, QVector<quint32> a_players, std::future<void>& f)
+{
+
+    const auto SLEEP_TIME(500ms);
+    std::string errMsg("");
+    qint32 playerSndr{DONT_CARE};
+    qint32 playerRcvr{DONT_CARE};
+
+    init(std::move(a_miner), std::move(a_players));
+
+    LOGGER_HELPER(INFO, errMsg, "Players init proccess ok waiting for miner");
+    f.wait();
+    LOGGER_HELPER(INFO, errMsg, "Miner and players are now synced starting normal activity");
+
+    //while flase
+    while (!stopMe.test_and_set())
+    {
+        std::array<qint32, 2> peeked = {DONT_CARE, DONT_CARE};
