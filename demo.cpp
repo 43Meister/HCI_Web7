@@ -262,3 +262,23 @@ void CDemo::SPlayer::playerMain(TMinerSptr a_miner, QVector<quint32> a_players, 
     while (!stopMe.test_and_set())
     {
         std::array<qint32, 2> peeked = {DONT_CARE, DONT_CARE};
+        peeked[0] = peekPlayer(peeked.front());
+        peeked[1] = peekPlayer(peeked.front());
+
+        static constexpr quint32 PEEKED_SIZE{peeked.size()-1};
+        static CUnfiformRandomInt playerPeeker(0, PEEKED_SIZE);
+        auto sndrInd = playerPeeker.getNumber();
+
+        playerSndr = players[peeked[sndrInd]];
+        playerRcvr = players[peeked[PEEKED_SIZE - sndrInd]];  // if player sndr was 0 player rcvr will be 1 else 0
+
+
+        auto balance = g_commands->getBalance(playerSndr, false);
+        auto balanceRec =  g_commands->getBalance(playerRcvr, false);
+        LOGGER_HELPER(INFO, errMsg, QString("peeked player ["), playerSndr , "] with balance of [", balance, "] ",
+                      "as sender and player [", playerRcvr, "] with balance of [", balanceRec, "] as the reciver");
+
+
+        //only if this player has cash
+        if (balance > 0.0009)
+        {
