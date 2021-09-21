@@ -282,3 +282,27 @@ void CDemo::SPlayer::playerMain(TMinerSptr a_miner, QVector<quint32> a_players, 
         //only if this player has cash
         if (balance > 0.0009)
         {
+            auto amount = CDemo::getAmount(balance);
+
+            g_commands->sendCoins(playerSndr, playerRcvr, amount, false);
+
+            miner->add();
+
+            balance = g_commands->getBalance(playerSndr, false); // get the new balance of the sender
+
+            LOGGER_HELPER(INFO, errMsg, QString("Sending [ "), amount, " ] coins  from server [ ", playerSndr, "] to server [ ",
+                          playerRcvr , " ] ", QString("Amount left ["), balance, " ]");
+        }
+
+        stopMe.clear();
+
+        std::this_thread::sleep_for(SLEEP_TIME);
+    }
+}
+
+void CDemo::on_pushButton_3_clicked()
+{
+    m_miner->stop();
+    m_player->stop();
+    m_logReader->stop();
+}
