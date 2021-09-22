@@ -327,3 +327,20 @@ void SLoggingTask::mainFunc(QTextStream& stream)
             std::this_thread::sleep_for(2s); //sleep for 2 seconds
         }
     }
+
+    //set it to run again
+    m_runLogger = true;
+}
+
+
+//this is the slot that will be connected to the log reader task
+void CDemo::drawLogger(QString str)
+{
+    static auto pTextEdit = ui->textEdit;
+
+    pTextEdit->insertPlainText("\n");
+    pTextEdit->insertPlainText(str);
+    auto cursor = pTextEdit->textCursor();
+    cursor.setPosition(QTextCursor::Start);
+    pTextEdit->setTextCursor(cursor);
+}
