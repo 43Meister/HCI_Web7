@@ -306,3 +306,24 @@ void CDemo::on_pushButton_3_clicked()
     m_player->stop();
     m_logReader->stop();
 }
+
+
+void SLoggingTask::mainFunc(QTextStream& stream)
+{
+    //read the first demo notice
+    QString str = stream.readAll();
+    emit loggerTrigger(str);
+
+    while (m_runLogger)
+    {
+        str = stream.readLine(); //each time rad only one log enterance
+
+        //only if theres somthing to print and its from the currect loggers print to screen
+        if ((str.size() != 0) &&
+           ((str.contains("PlayersLogger")) || (str.contains("MinerLogger")) ||
+            (str.contains("DemoLogger"))) )
+        {
+            emit loggerTrigger(str);
+            std::this_thread::sleep_for(2s); //sleep for 2 seconds
+        }
+    }
