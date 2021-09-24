@@ -55,3 +55,17 @@ private:
 //uniformity random class .
 class CUnfiformRandomInt
 {
+public:
+
+    CUnfiformRandomInt():
+        m_mt(m_rd()),
+        m_uniforDist(std::make_unique<std::uniform_int_distribution<quint32> >(0, 0))
+    {}
+
+    CUnfiformRandomInt(const quint32& lowLim, const quint32& upLim):
+        m_mt(m_rd()),
+        m_uniforDist(std::make_unique<std::uniform_int_distribution<quint32> >(lowLim, upLim))
+    {}
+
+    inline void setNewLimits(const quint32& lowLim, const quint32& upLim)
+    {
