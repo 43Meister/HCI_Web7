@@ -34,3 +34,24 @@ public:
         m_mt(m_rd()),
         m_uniforDist(std::make_unique<std::uniform_real_distribution<qreal> >(lowLim, upLim))
     {}
+
+    inline void setNewLimits(const qreal& lowLim, const qreal& upLim)
+    {
+        m_uniforDist = std::make_unique<std::uniform_real_distribution<qreal> >(lowLim, upLim);
+    }
+
+    inline qreal getNumber()
+    {
+        return (*(m_uniforDist.get()))(m_mt);
+    }
+
+private:
+    std::random_device m_rd;
+    std::mt19937 m_mt;
+    std::unique_ptr<std::uniform_real_distribution<qreal> > m_uniforDist;
+
+};
+
+//uniformity random class .
+class CUnfiformRandomInt
+{
