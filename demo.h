@@ -97,3 +97,29 @@ struct SLoggingTask : public QObject
     {}
 
     void mainFunc(QTextStream& stream);
+
+    inline void stop()
+    {
+        m_runLogger = false;
+    }
+
+    inline void start()
+    {
+        m_runLogger = true;
+    }
+
+signals:
+    void loggerTrigger(QString str);
+
+
+private:
+    bool m_runLogger;
+};
+
+class CDemo : public QDialog, CLogable
+{
+    Q_OBJECT
+
+public:
+
+    explicit CDemo(QWidget *parent = 0);
