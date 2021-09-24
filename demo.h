@@ -69,3 +69,31 @@ public:
 
     inline void setNewLimits(const quint32& lowLim, const quint32& upLim)
     {
+        m_uniforDist = std::make_unique<std::uniform_int_distribution<quint32> >(lowLim, upLim);
+    }
+
+    inline quint32 getNumber()
+    {
+        return (*(m_uniforDist.get()))(m_mt);
+    }
+
+private:
+    std::random_device m_rd;
+    std::mt19937 m_mt;
+    std::unique_ptr<std::uniform_int_distribution<quint32> > m_uniforDist;
+
+};
+
+//container calls for the logging operation we want it to have slots
+//so it will inharite the QObject
+struct SLoggingTask : public QObject
+{
+    Q_OBJECT
+
+  public:
+
+    SLoggingTask():
+        m_runLogger(false)
+    {}
+
+    void mainFunc(QTextStream& stream);
