@@ -123,3 +123,32 @@ class CDemo : public QDialog, CLogable
 public:
 
     explicit CDemo(QWidget *parent = 0);
+    void show();
+    ~CDemo();
+
+    static qreal getAmount(qreal& currBalance)
+    {
+        CUnfiformRandomReal rd(0, currBalance);
+        return rd.getNumber();
+    }
+
+public slots:
+    void drawLogger(QString str);
+
+private slots:
+    void on_pushButton_clicked();
+
+    void on_pushButton_2_clicked();
+
+    void on_pushButton_3_clicked();
+
+private:
+    Ui::CDemo *ui;
+    CServerManager& m_serverManager;
+
+    struct SMiner : CLogable
+    {
+
+        SMiner() :
+            CLogable("MinerLogger")
+        {}
