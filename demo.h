@@ -169,3 +169,16 @@ private:
         }
 
         inline void stop()
+        {
+            std::string errMsg("");
+            LOGGER_HELPER(INFO, errMsg, "Stoping Miner");
+            stopMe.test_and_set();
+        }
+
+        void minerMain(qint32 a_miner, QVector<quint32> a_players, std::promise<void>& p);
+
+        void printBalanceOfAllPlayers();
+
+    private:
+        std::atomic<quint32> operCount;
+        std::atomic_flag stopMe = ATOMIC_FLAG_INIT;
