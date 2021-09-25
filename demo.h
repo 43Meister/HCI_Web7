@@ -152,3 +152,20 @@ private:
         SMiner() :
             CLogable("MinerLogger")
         {}
+
+        inline void add()
+        {
+            std::string errMsg("");
+            static constexpr quint32 ONE{1};
+            auto num = operCount.fetch_add(ONE);
+
+             LOGGER_HELPER(INFO, errMsg, "performed: [", num, "] operations");
+            //std::atomic_fetch_add(&operCount, &ONE);
+        }
+
+        inline void reset()
+        {
+            operCount.store(0);
+        }
+
+        inline void stop()
