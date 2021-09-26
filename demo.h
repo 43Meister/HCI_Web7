@@ -260,3 +260,15 @@ private:
 private:
 
     std::shared_ptr<SMiner> m_miner;
+    std::shared_ptr<SPlayer> m_player;
+    std::shared_ptr<SLoggingTask> m_logReader;
+    std::unique_ptr<std::thread> m_minerTask;
+    std::unique_ptr<std::thread> m_playerTask;
+    std::unique_ptr<std::thread> m_logReaderTask;
+    QFile m_logFile;
+    QTextStream m_stream;
+    std::promise<void> m_minerPromise;
+    std::future<void> m_playersFeture;
+};
+
+#endif // DEMO_H

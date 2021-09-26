@@ -1,0 +1,15 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CDemo</class>
+ <widget class="QDialog" name="CDemo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>752</width>
+    <height>645</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
