@@ -232,3 +232,31 @@ private:
         qint32 vectSize;
 
         void init(TMinerSptr a_miner, QVector<quint32> a_players);
+
+        inline qint32 peekPlayer(qint32 currIndex)
+        {
+            static const qint32 PLAYER_SIZE{players.size() - 1};
+            static CUnfiformRandomInt playerPeeker(0, PLAYER_SIZE);
+            qint32 player = playerPeeker.getNumber();
+
+            if ((currIndex != DONT_CARE) && (currIndex == player))
+            {
+                if (player > 0)
+                {
+                    --player;
+                }
+                else
+                {
+                    ++player;
+                }
+            }
+
+            return player;
+        }
+
+    };
+
+
+private:
+
+    std::shared_ptr<SMiner> m_miner;
