@@ -182,3 +182,28 @@ private:
     private:
         std::atomic<quint32> operCount;
         std::atomic_flag stopMe = ATOMIC_FLAG_INIT;
+        qint32 miner;
+        QVector<quint32> players;
+        quint32 currMaxOpers;
+        std::mutex mut;
+        CUnfiformRandomReal m_realRD;
+
+
+        void distCash();
+
+        void init(qint32 a_miner, QVector<quint32> a_players);
+
+        inline void setCount()
+        {
+            std::string errMsg("");
+            static const qint32 MAX_OPERS(50);
+
+            static CUnfiformRandomInt countGenerator(0, MAX_OPERS);
+
+            currMaxOpers = countGenerator.getNumber();
+            LOGGER_HELPER(INFO, errMsg, "changed the number of operations needed for mining to: [", currMaxOpers, "]");
+        }
+
+    };
+
+    using TMinerSptr = std::shared_ptr<SMiner>;
