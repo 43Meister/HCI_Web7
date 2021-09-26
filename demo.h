@@ -207,3 +207,28 @@ private:
     };
 
     using TMinerSptr = std::shared_ptr<SMiner>;
+
+    struct SPlayer : public CLogable
+    {
+
+        SPlayer():
+            CLogable("PlayersLogger")
+        {}
+
+        inline void stop()
+        {
+            std::string errMsg("");
+            LOGGER_HELPER(INFO, errMsg, "Stoping Players");
+            stopMe.test_and_set();
+        }
+
+        void playerMain(TMinerSptr a_miner, QVector<quint32> a_players, std::future<void>& f);
+
+    private:
+
+        QVector<quint32> players;
+        TMinerSptr miner = nullptr;
+        std::atomic_flag stopMe = ATOMIC_FLAG_INIT;
+        qint32 vectSize;
+
+        void init(TMinerSptr a_miner, QVector<quint32> a_players);
