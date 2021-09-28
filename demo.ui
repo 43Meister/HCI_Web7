@@ -90,3 +90,15 @@ alternate-background-color: rgb(242, 104, 11);</string>
      <property name="geometry">
       <rect>
        <x>0</x>
+       <y>0</y>
+       <width>701</width>
+       <height>551</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
