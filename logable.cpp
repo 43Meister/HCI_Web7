@@ -1,3 +1,4 @@
 #include "logable.h"
 
-CLogable::CLogable(QString
+CLogable::CLogable(QString logName) :
+    m_logge
