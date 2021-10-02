@@ -1,2 +1,3 @@
 #ifndef CLOGABLE_H
-#define CL
+#define CLOGABLE_H
+#include "
