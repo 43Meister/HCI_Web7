@@ -1,3 +1,4 @@
 #ifndef CLOGABLE_H
 #define CLOGABLE_H
-#include "
+#include "log4cxx/logger.h"
+#inc
