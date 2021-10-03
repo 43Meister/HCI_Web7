@@ -4,4 +4,5 @@
 #include <QString>
 #include <QBuffer>
 #include <QDebug>
+#include <string>
 #i
