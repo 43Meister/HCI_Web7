@@ -1,4 +1,5 @@
 #ifndef CLOGABLE_H
 #define CLOGABLE_H
 #include "log4cxx/logger.h"
-#inc
+#include <QString>
+#include <QB
