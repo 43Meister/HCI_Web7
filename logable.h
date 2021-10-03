@@ -2,4 +2,6 @@
 #define CLOGABLE_H
 #include "log4cxx/logger.h"
 #include <QString>
-#include <QB
+#include <QBuffer>
+#include <QDebug>
+#i
