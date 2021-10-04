@@ -7,4 +7,6 @@
 #include <string>
 #include <utility>
 #include <QTextStream>
-#include <QD
+#include <QDataStream>
+
+//helper LoggerMacro
