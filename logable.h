@@ -6,4 +6,5 @@
 #include <QDebug>
 #include <string>
 #include <utility>
-#include <QT
+#include <QTextStream>
+#include <QD
