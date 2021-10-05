@@ -10,4 +10,4 @@
 #include <QDataStream>
 
 //helper LoggerMacros
-#define LOGGER_HELPER(
+#define LOGGER_HELPER(LVL, msg ,ARGS...)        
