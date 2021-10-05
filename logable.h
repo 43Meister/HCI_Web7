@@ -9,4 +9,5 @@
 #include <QTextStream>
 #include <QDataStream>
 
-//helper LoggerMacro
+//helper LoggerMacros
+#define LOGGER_HELPER(
