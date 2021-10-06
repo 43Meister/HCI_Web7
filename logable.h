@@ -10,4 +10,5 @@
 #include <QDataStream>
 
 //helper LoggerMacros
-#define LOGGER_HELPER(LVL, msg ,ARGS...)        
+#define LOGGER_HELPER(LVL, msg ,ARGS...)           \
+    msg = createMsg(
