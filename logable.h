@@ -11,4 +11,5 @@
 
 //helper LoggerMacros
 #define LOGGER_HELPER(LVL, msg ,ARGS...)           \
-    msg = createMsg(ARGS);                     
+    msg = createMsg(ARGS);                         \
+    LOG4CXX_##L
