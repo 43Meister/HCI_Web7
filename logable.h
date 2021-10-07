@@ -14,4 +14,6 @@
     msg = createMsg(ARGS);                         \
     LOG4CXX_##LVL(m_logger, msg)
 
-cl
+class CLogable
+{
+publi
