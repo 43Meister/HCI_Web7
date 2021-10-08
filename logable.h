@@ -19,4 +19,4 @@ class CLogable
 public:
     CLogable(QString logName);
 
-//prote
+//protected member tahat defines a log
