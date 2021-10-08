@@ -17,4 +17,6 @@
 class CLogable
 {
 public:
-    CLogable(QString 
+    CLogable(QString logName);
+
+//prote
