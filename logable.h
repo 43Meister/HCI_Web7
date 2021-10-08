@@ -16,4 +16,5 @@
 
 class CLogable
 {
-publi
+public:
+    CLogable(QString 
