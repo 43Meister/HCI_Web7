@@ -22,4 +22,5 @@ public:
 //protected member tahat defines a log
 protected:
 
-    templ
+    template <typename ...TArgs>
+ 
