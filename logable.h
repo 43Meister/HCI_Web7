@@ -20,3 +20,6 @@ public:
     CLogable(QString logName);
 
 //protected member tahat defines a log
+protected:
+
+    templ
