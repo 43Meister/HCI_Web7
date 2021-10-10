@@ -23,4 +23,4 @@ public:
 protected:
 
     template <typename ...TArgs>
-    std::string 
+    std::string createMsg(TArgs&&...
