@@ -25,4 +25,5 @@ protected:
     template <typename ...TArgs>
     std::string createMsg(TArgs&&... args)
     {
-        QString
+        QString streamStr;
+        //QTextS
