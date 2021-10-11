@@ -26,4 +26,4 @@ protected:
     std::string createMsg(TArgs&&... args)
     {
         QString streamStr;
-        //QTextS
+        //QTextStream stream(&stre
