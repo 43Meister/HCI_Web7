@@ -23,4 +23,6 @@ public:
 protected:
 
     template <typename ...TArgs>
-    std::string createMsg(TArgs&&...
+    std::string createMsg(TArgs&&... args)
+    {
+        QString
