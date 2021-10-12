@@ -27,4 +27,6 @@ protected:
     {
         QString streamStr;
         //QTextStream stream(&streamStr);
-        QDebug dbg
+        QDebug dbgStream(&streamStr);
+
+        
