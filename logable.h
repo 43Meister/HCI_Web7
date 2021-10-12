@@ -29,4 +29,4 @@ protected:
         //QTextStream stream(&streamStr);
         QDebug dbgStream(&streamStr);
 
-        
+        createMsgImpl(dbgStream
