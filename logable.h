@@ -31,4 +31,4 @@ protected:
 
         createMsgImpl(dbgStream, std::forward<TArgs>(args)...);
 
-        retur
+        return streamStr.toStdString()
