@@ -29,4 +29,6 @@ protected:
         //QTextStream stream(&streamStr);
         QDebug dbgStream(&streamStr);
 
-        createMsgImpl(dbgStream, std::forward<TArgs
+        createMsgImpl(dbgStream, std::forward<TArgs>(args)...);
+
+        retur
