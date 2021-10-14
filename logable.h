@@ -35,4 +35,6 @@ protected:
     }
 
 
-    log4cxx::Log
+    log4cxx::LoggerPtr m_logger;
+
+//prva
