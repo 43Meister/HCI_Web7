@@ -37,4 +37,5 @@ protected:
 
     log4cxx::LoggerPtr m_logger;
 
-//prva
+//prvate
+    template <typename 
