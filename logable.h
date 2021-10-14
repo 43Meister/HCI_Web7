@@ -31,4 +31,8 @@ protected:
 
         createMsgImpl(dbgStream, std::forward<TArgs>(args)...);
 
-        return streamStr.toStdString()
+        return streamStr.toStdString();
+    }
+
+
+    log4cxx::Log
