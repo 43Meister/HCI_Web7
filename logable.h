@@ -38,4 +38,5 @@ protected:
     log4cxx::LoggerPtr m_logger;
 
 //prvate
-    template <typename TFirst, typename ...TArgs
+    template <typename TFirst, typename ...TArgs>
+    void createMsgImp
