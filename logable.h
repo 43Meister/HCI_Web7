@@ -38,4 +38,4 @@ protected:
     log4cxx::LoggerPtr m_logger;
 
 //prvate
-    template <typename 
+    template <typename TFirst, typename ...TArgs
