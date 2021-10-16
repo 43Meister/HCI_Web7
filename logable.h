@@ -39,4 +39,4 @@ protected:
 
 //prvate
     template <typename TFirst, typename ...TArgs>
-    void createMsgImp
+    void createMsgImpl(QDebug& dbg, TFirst&& 
