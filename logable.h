@@ -41,4 +41,5 @@ protected:
     template <typename TFirst, typename ...TArgs>
     void createMsgImpl(QDebug& dbg, TFirst&& first, TArgs&&... args)
     {
-        dbg << firs
+        dbg << first << " ";
+        createMs
