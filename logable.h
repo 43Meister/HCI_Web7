@@ -42,4 +42,5 @@ protected:
     void createMsgImpl(QDebug& dbg, TFirst&& first, TArgs&&... args)
     {
         dbg << first << " ";
-        createMsgImpl(dbg, std::forw
+        createMsgImpl(dbg, std::forward<TArgs>(args)...);
+   
