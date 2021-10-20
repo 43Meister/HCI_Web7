@@ -43,4 +43,6 @@ protected:
     {
         dbg << first << " ";
         createMsgImpl(dbg, std::forward<TArgs>(args)...);
-   
+    }
+
+    template<typena
