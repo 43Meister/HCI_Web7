@@ -46,4 +46,4 @@ protected:
     }
 
     template<typename ...TArgs>
-    void createMsgImpl(QDebug& db
+    void createMsgImpl(QDebug& dbg, std::string str, TAr
