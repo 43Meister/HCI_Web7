@@ -48,4 +48,4 @@ protected:
     template<typename ...TArgs>
     void createMsgImpl(QDebug& dbg, std::string str, TArgs&&... args)
     {
-      
+        dbg << str.c_str() << "
