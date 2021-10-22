@@ -49,4 +49,7 @@ protected:
     void createMsgImpl(QDebug& dbg, std::string str, TArgs&&... args)
     {
         dbg << str.c_str() << " ";
-        createMsgImpl(dbg, std::forward<TArgs>(a
+        createMsgImpl(dbg, std::forward<TArgs>(args)...);
+    }
+
+
