@@ -55,4 +55,7 @@ protected:
 
     //stop recursion
     void createMsgImpl(QDebug& /*dbg*/)
- 
+    {}
+};
+
+#endif // CLOGABLE_H
