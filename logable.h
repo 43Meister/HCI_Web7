@@ -54,4 +54,5 @@ protected:
 
 
     //stop recursion
-    void createMsgImp
+    void createMsgImpl(QDebug& /*dbg*/)
+ 
