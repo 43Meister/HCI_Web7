@@ -1,2 +1,2 @@
 #include "bitcoinserver.h"
-#i
+#include <QApplicat
