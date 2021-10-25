@@ -1,2 +1,4 @@
 #include "bitcoinserver.h"
-#include <QApplicat
+#include <QApplication>
+#include "log4cxx/logger.h"
+#include "log4cx
