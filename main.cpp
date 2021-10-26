@@ -5,4 +5,5 @@
 #include "log4cxx/propertyconfigurator.h"
 #include "log4cxx/helpers/exception.h"
 
-using names
+using namespace log4cxx;
+using namespac
