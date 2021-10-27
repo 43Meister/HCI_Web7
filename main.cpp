@@ -7,3 +7,5 @@
 
 using namespace log4cxx;
 using namespace log4cxx::helpers;
+
+LoggerPtr g_logger(Logger:
