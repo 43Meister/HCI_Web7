@@ -6,4 +6,4 @@
 #include "log4cxx/helpers/exception.h"
 
 using namespace log4cxx;
-using namespac
+using namespace log4cxx::helpers;
