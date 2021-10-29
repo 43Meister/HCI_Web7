@@ -10,4 +10,4 @@ using namespace log4cxx::helpers;
 
 LoggerPtr g_logger(Logger::getLogger("BitcoinLogger"));
 
-int main
+int main(int argc, char *argv[])
