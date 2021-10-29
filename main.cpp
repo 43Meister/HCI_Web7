@@ -8,4 +8,6 @@
 using namespace log4cxx;
 using namespace log4cxx::helpers;
 
-LoggerPtr g_logger(Logger::getLogger("BitcoinLogger"
+LoggerPtr g_logger(Logger::getLogger("BitcoinLogger"));
+
+int main
