@@ -12,4 +12,6 @@ LoggerPtr g_logger(Logger::getLogger("BitcoinLogger"));
 
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, arg
+    QApplication a(argc, argv);
+
+    log4cxx::Pro
