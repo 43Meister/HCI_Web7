@@ -14,4 +14,4 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
 
-    log4cxx::Pro
+    log4cxx::PropertyConfigurator::c
