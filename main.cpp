@@ -16,4 +16,4 @@ int main(int argc, char *argv[])
 
     log4cxx::PropertyConfigurator::configure("bitCoinserver.log4cxx");
 
-    LOG4CXX_INFO(g_logger, std::string("===========
+    LOG4CXX_INFO(g_logger, std::string("=======================================
