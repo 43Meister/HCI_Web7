@@ -14,4 +14,6 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
 
-    log4cxx::PropertyConfigurator::configure("bitCoinserv
+    log4cxx::PropertyConfigurator::configure("bitCoinserver.log4cxx");
+
+    LO
