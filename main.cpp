@@ -18,4 +18,4 @@ int main(int argc, char *argv[])
 
     LOG4CXX_INFO(g_logger, std::string("==================================================================\n\t\t") +
                  "Wellcome to BITNet \n" +
-                 "===
+                 "=================================
