@@ -20,4 +20,5 @@ int main(int argc, char *argv[])
                  "Wellcome to BITNet \n" +
                  "==================================================================");
 
-    B
+    BitcoinServer w;
+    w
