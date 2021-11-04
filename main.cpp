@@ -23,4 +23,5 @@ int main(int argc, char *argv[])
     BitcoinServer w;
     w.show();
 
-    return a.exec
+    return a.exec();
+}
