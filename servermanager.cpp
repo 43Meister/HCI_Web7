@@ -29,3 +29,26 @@ constexpr qlonglong BASE_PORT2(18332);
 
 const char* CServerManager::ACTIVE = "Active";
 const char* CServerManager::DEACTIVE = "Deactive";
+const char* CServerManager::RESP_SEPERATOR = "?!?!";
+const char* CServerManager::SERVER_NAME = "1_NAME";
+const char* CServerManager::END_POINT = "2_End Point";
+const char* CServerManager::ACCOUNT = "3_Account";
+const char* CServerManager::BALANCE = "4_Balance";
+const char* CServerManager::STATUS = "5_Status";
+const char* CServerManager::BASE_IP = "172.17.0.%1"; //BASE IP OF THE DOCKER SERVERS
+const char* CServerManager::INVALID_IP = "BAD_IP_ADDR";
+
+const uint32_t CServerManager::BASE_IP_STATION = 3;
+
+//static definitions
+unsigned int CServerManager::s_id = 0;
+unsigned int CServerManager::s_port = 8888;
+
+using namespace NBitcoinServer;
+
+CServerManager::CServerManager(QObject *parent) : QObject(parent), CLogable("ServerManagerLogger")
+{}
+
+CServerManager& CServerManager::getReference()
+{
+    static CServerManager ref;
