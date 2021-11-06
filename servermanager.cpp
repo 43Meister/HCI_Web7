@@ -52,3 +52,28 @@ CServerManager::CServerManager(QObject *parent) : QObject(parent), CLogable("Ser
 CServerManager& CServerManager::getReference()
 {
     static CServerManager ref;
+
+    return ref;
+}
+
+void CServerManager::registerClient()
+{
+    m_cliMap.emplace(TCliPair(s_id, std::move(SCliWrap(s_id, s_port))));
+    s_id++;
+    s_port++;
+}
+
+void CServerManager::deleteClient(uint id)
+{
+    auto iter = m_cliMap.find(id);
+
+    if (iter != m_cliMap.end())
+    {
+        (iter->second).remove();
+        //m_cliMap.erase(iter);
+    }
+}
+
+void CServerManager::startClient(const uint id)
+{
+    auto iter = m_cliMap.find(id);
