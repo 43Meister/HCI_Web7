@@ -77,3 +77,27 @@ void CServerManager::deleteClient(uint id)
 void CServerManager::startClient(const uint id)
 {
     auto iter = m_cliMap.find(id);
+
+    if (iter != m_cliMap.end())
+    {
+        (iter->second).run();
+    }
+}
+
+void CServerManager::startAll()
+{
+    forEach([](TCliPair& pair){(pair.second).run();});
+}
+
+void CServerManager::deleteAll()
+{
+    forEach([](TCliPair& pair){(pair.second).remove();});
+}
+
+QStringList CServerManager::toString()
+{
+    QStringList rv;
+
+    forEach([&rv](TCliPair& pair){
+        rv << std::move(pair.second.toString());
+    });
