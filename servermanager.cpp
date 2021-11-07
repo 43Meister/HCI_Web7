@@ -101,3 +101,23 @@ QStringList CServerManager::toString()
     forEach([&rv](TCliPair& pair){
         rv << std::move(pair.second.toString());
     });
+
+
+    return std::move(rv);
+}
+
+
+CServerManager::TServTable CServerManager::getTableData()
+{
+    CServerManager::TServTable rv;
+    int id(0);
+
+    for (auto& cli : m_cliMap)
+    {
+       std::map<QString, QString> child;
+       child.emplace(std::pair<QString,QString>(SERVER_NAME, (cli.second).getName()));
+       child.emplace(std::pair<QString,QString>(END_POINT, (cli.second).getEndPoint()));
+       child.emplace(std::pair<QString,QString>(ACCOUNT, (cli.second).getAddress()));
+       std::string balance(std::to_string((cli.second.getBalance())));
+       child.emplace(std::pair<QString,QString>(BALANCE, QString(balance.c_str())));
+       child.emplace(std::pair<QString,QString>(STATUS, (cli.second).isActive()));
