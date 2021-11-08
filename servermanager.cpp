@@ -149,3 +149,34 @@ QString CServerManager::getIp(int idx)
     auto cli = m_cliMap.find(idx);
 
     if (cli != m_cliMap.end())
+    {
+        rv = QString(BASE_IP).arg(BASE_IP_STATION + idx);
+    }
+
+    return rv;
+}
+
+
+//wrapper implementation
+CServerManager::SCliWrap::SCliWrap(unsigned int id, unsigned int port) : CLogable("ServerMangerCLILogger")
+{
+    m_dockName = std::move(QString(DOCKER_NAME).arg(QString(std::to_string(id).c_str())));
+    m_dockRm = std::move(QString(DOCKER_RM).arg(m_dockName));
+    m_dockCmd = std::move(QString(DOCKER_CMD).arg(QString(std::to_string(port).c_str())).arg(m_dockName).arg(m_dockName).arg(BASE_PORT1 + id).arg(BASE_PORT2 + id));
+    m_endPoint = std::move(QString("http://172.17.0.1:%1").arg(std::to_string(port).c_str()));
+    m_cli.reset(new CJasonHttpClient(m_endPoint));
+
+    std::string dirName = std::string("bitcoinLV/") + m_dockName.toStdString();
+
+    mkdir(dirName.c_str(), ACCESSPERMS);
+}
+
+
+
+bool CServerManager::SCliWrap::run()
+{
+    bool rv(true);
+
+    QString dockStr(std::move(this->toString()));
+
+    LOGGER_HELPER(DEBUG, dockStr.toStdString());
