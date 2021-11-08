@@ -121,3 +121,31 @@ CServerManager::TServTable CServerManager::getTableData()
        std::string balance(std::to_string((cli.second.getBalance())));
        child.emplace(std::pair<QString,QString>(BALANCE, QString(balance.c_str())));
        child.emplace(std::pair<QString,QString>(STATUS, (cli.second).isActive()));
+
+       rv.emplace(std::pair<int, std::map<QString, QString> >(id++, std::move(child)));
+    }
+
+    return rv;
+}
+
+CServerManager::TStringMap CServerManager::sendMsg(int idx, QString cmd, QString args, QByteArray* rawJason)
+{
+    TStringMap rv;
+    auto cli(m_cliMap.find(idx));
+
+    if (cli != m_cliMap.end())
+    {
+
+        rv = cli->second.sendMsg(std::move(cmd), std::move(args), rawJason);
+    }
+
+    return rv;
+}
+
+QString CServerManager::getIp(int idx)
+{
+    QString rv(INVALID_IP);
+
+    auto cli = m_cliMap.find(idx);
+
+    if (cli != m_cliMap.end())
