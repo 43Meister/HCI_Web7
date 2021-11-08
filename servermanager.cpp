@@ -180,3 +180,28 @@ bool CServerManager::SCliWrap::run()
     QString dockStr(std::move(this->toString()));
 
     LOGGER_HELPER(DEBUG, dockStr.toStdString());
+
+    //build docker
+    QString buildDocker(DOCKER_BUILD);
+    //create a string with the correct docker build info.
+    runDockerCmd(std::move(buildDocker.arg(DOCKER_IMG).arg(DOCKER_LOCK)));
+
+    //remove old docker instance
+    remove();
+
+    //run deamon
+    QString arguments(std::move(m_dockCmd + " -d=true " + DOCKER_IMG + " " + RUN_DEMON));
+    runDockerCmd(std::move(arguments));
+
+    m_isActive = true;
+
+    return rv;
+}
+
+bool CServerManager::SCliWrap::remove()
+{
+    bool rv(true);
+
+    //remove old docker instance
+    QString rmArgs = QString(DOCKER_RM).arg(m_dockName);
+    runDockerCmd(std::move(rmArgs));
