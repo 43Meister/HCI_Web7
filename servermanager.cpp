@@ -205,3 +205,18 @@ bool CServerManager::SCliWrap::remove()
     //remove old docker instance
     QString rmArgs = QString(DOCKER_RM).arg(m_dockName);
     runDockerCmd(std::move(rmArgs));
+
+    m_isActive = false;
+
+    return rv;
+}
+
+CServerManager::TStringMap CServerManager::SCliWrap::sendMsg(QString cmd, QString args, QByteArray* rawJason)
+{
+    TStringMap rv;
+
+    QStringList arguments = args.split(" ");
+
+    QJsonRpcMessage sendMsg = std::move(m_cli->prepareMessage(std::move(cmd), std::move(arguments)));
+
+    QJsonRpcMessage rep = std::move(m_cli->sendAndWaitForResp(std::move(sendMsg)));
