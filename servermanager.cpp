@@ -268,3 +268,26 @@ CServerManager::TStringMap CServerManager::SCliWrap::parse(QJsonRpcMessage msg)
                                QString("Message: ") +
                                msg.errorMessage()));
     }
+    else
+    {
+        //QJsonDocument jsoDoc(QJsonDocument::fromJson(msg.result().toVariant()));
+        auto respFromServer(msg.result());
+        QString respons("");
+
+        parseByType(respFromServer, respons);
+
+        rv.emplace(TStringPair("Response", respons));
+    }
+
+    return rv;
+}
+
+
+void CServerManager::SCliWrap::parse(const QJsonArray& arr, QString& respMap)
+{
+    std::string errMsg("");
+
+    LOGGER_HELPER(DEBUG, errMsg, "The resualt is an array");
+    //qDebug() << "The resualt is an array";
+
+    uint32_t ind(0);
