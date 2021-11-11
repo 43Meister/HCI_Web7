@@ -220,3 +220,29 @@ CServerManager::TStringMap CServerManager::SCliWrap::sendMsg(QString cmd, QStrin
     QJsonRpcMessage sendMsg = std::move(m_cli->prepareMessage(std::move(cmd), std::move(arguments)));
 
     QJsonRpcMessage rep = std::move(m_cli->sendAndWaitForResp(std::move(sendMsg)));
+
+    rv = std::move(parse(rep));
+
+    if (rawJason)
+    {
+        *rawJason = std::move(rep.toJson());
+    }
+
+    return rv;
+}
+
+void CServerManager::SCliWrap::runDockerCmd(const QString& args)
+{
+    QStringList arguments(std::move(args.split(" ")));
+
+    QProcess proc;
+    std::string errMsg("");
+
+    LOGGER_HELPER(DEBUG, errMsg, std::string("Running command: ") + DOCKER + "args:" + args.toStdString());
+    //qDebug() << "Running command: " << DOCKER << "args:" + args;
+
+
+
+    proc.start(DOCKER, std::move(arguments));
+
+    if (!proc.waitForFinished())
