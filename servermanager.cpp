@@ -246,3 +246,25 @@ void CServerManager::SCliWrap::runDockerCmd(const QString& args)
     proc.start(DOCKER, std::move(arguments));
 
     if (!proc.waitForFinished())
+    {
+        LOGGER_HELPER(ERROR, errMsg, "Error couldnt start finish command!");
+        //qDebug() << "Error couldnt start finish command!";
+    }
+
+    LOGGER_HELPER(DEBUG, errMsg ,std::string("run finished with: ") , proc.readAllStandardOutput().toStdString()
+                  , proc.readAllStandardError().toStdString());
+    //qDebug() << "run finished with: " << proc.readAllStandardOutput() << proc.readAllStandardError();
+}
+
+CServerManager::TStringMap CServerManager::SCliWrap::parse(QJsonRpcMessage msg)
+{
+    TStringMap rv;
+
+    if (msg.type() == QJsonRpcMessage::Error)
+    {
+        rv.emplace(TStringPair("Error",
+                               QString("Code: ") +
+                               QString(msg.errorCode()) +
+                               QString("Message: ") +
+                               msg.errorMessage()));
+    }
