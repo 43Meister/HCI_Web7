@@ -308,3 +308,23 @@ void CServerManager::SCliWrap::parse(const QJsonObject& obj, QString& respMap)
 {
     std::string errMsg("");
     //qDebug() << "The resualt is an Object";
+    LOGGER_HELPER(DEBUG, errMsg, "The resualt is an Object");
+
+    auto variantMap(obj.toVariantMap());
+
+    for (auto mapIter = variantMap.begin(); mapIter != variantMap.end(); ++mapIter)
+    {
+        //qDebug() << "pushing item Key: " << mapIter.key() << "Val: " << mapIter.value();
+        LOGGER_HELPER(DEBUG, errMsg, "pushing item Key: ", mapIter.key(), "Val: ", mapIter.value());
+        respMap += mapIter.key() + " : " +  mapIter.value().toString() + "\n" + RESP_SEPERATOR;
+    }
+}
+
+void CServerManager::SCliWrap::parse(const QJsonValue& val, QString& respMap)
+{
+    std::string errMsg("");
+    //qDebug() << "The resuat is a regular value: " << val;
+
+    LOGGER_HELPER(DEBUG, errMsg, "The resuat is a regular value: ", val);
+
+    auto var = val.toVariant();
