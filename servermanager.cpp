@@ -328,3 +328,31 @@ void CServerManager::SCliWrap::parse(const QJsonValue& val, QString& respMap)
     LOGGER_HELPER(DEBUG, errMsg, "The resuat is a regular value: ", val);
 
     auto var = val.toVariant();
+
+    respMap += var.toString() + RESP_SEPERATOR;
+}
+
+QString CServerManager::SCliWrap::toString()
+{
+    QString rv;
+
+    rv = "Name: " + getName() + " End Point: " + getEndPoint() + "Status: " + isActive();
+
+    return rv;
+}
+
+void CServerManager::SCliWrap::parseByType(const QJsonValue& val, QString& respMap)
+{
+    if (val.isArray())
+    {
+        parse(val.toArray(), respMap);
+    }
+    else if (val.isObject())
+    {
+        parse(val.toObject(), respMap);
+    }
+    else
+    {
+        parse(val, respMap);
+    }
+}
