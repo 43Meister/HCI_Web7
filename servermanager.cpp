@@ -291,3 +291,20 @@ void CServerManager::SCliWrap::parse(const QJsonArray& arr, QString& respMap)
     //qDebug() << "The resualt is an array";
 
     uint32_t ind(0);
+    QString item("Item %1: ");
+
+    for (const auto& arrItem : arr)
+    {
+        //qDebug() << item.arg(ind) << arrItem;
+        LOGGER_HELPER(DEBUG, errMsg, item.arg(ind), arrItem);
+
+        respMap += item.arg(ind) + ": \n";
+        parseByType(arrItem, respMap);
+        ind++;
+    }
+}
+
+void CServerManager::SCliWrap::parse(const QJsonObject& obj, QString& respMap)
+{
+    std::string errMsg("");
+    //qDebug() << "The resualt is an Object";
