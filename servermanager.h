@@ -1,1 +1,2 @@
-#
+#ifndef SERVERMANAGER_H
+#d
