@@ -1,2 +1,5 @@
 #ifndef SERVERMANAGER_H
-#define SERVERMANA
+#define SERVERMANAGER_H
+
+#include <QObject>
+#inclu
