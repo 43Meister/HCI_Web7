@@ -2,4 +2,5 @@
 #define SERVERMANAGER_H
 
 #include <QObject>
-#inclu
+#include <QString>
+#include <me
