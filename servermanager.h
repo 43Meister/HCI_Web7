@@ -4,4 +4,5 @@
 #include <QObject>
 #include <QString>
 #include <memory>
-#include <algorithm
+#include <algorithm>
+#include "jasonHttpclient.h
