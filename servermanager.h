@@ -8,4 +8,6 @@
 #include "jasonHttpclient.h"
 #include "logable.h"
 
-namespace NBi
+namespace NBitcoinServer
+{
+    class 
