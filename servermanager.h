@@ -7,3 +7,5 @@
 #include <algorithm>
 #include "jasonHttpclient.h"
 #include "logable.h"
+
+namespace NBi
