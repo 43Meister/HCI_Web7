@@ -5,4 +5,5 @@
 #include <QString>
 #include <memory>
 #include <algorithm>
-#include "jasonHttpclient.h
+#include "jasonHttpclient.h"
+#include "logable.h"
