@@ -13,4 +13,6 @@ namespace NBitcoinServer
     class serverManager;
 }
 
-class CServerManager : public QO
+class CServerManager : public QObject, CLogable
+{
+    Q_OB
