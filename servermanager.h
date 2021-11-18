@@ -10,4 +10,7 @@
 
 namespace NBitcoinServer
 {
-    class 
+    class serverManager;
+}
+
+class C
