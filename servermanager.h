@@ -13,4 +13,4 @@ namespace NBitcoinServer
     class serverManager;
 }
 
-class C
+class CServerManager : public QO
