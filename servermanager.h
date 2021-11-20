@@ -20,4 +20,5 @@ public:
 
 
     //static constans
-    static
+    static const char* ACTIVE;
+  
