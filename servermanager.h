@@ -19,4 +19,5 @@ class CServerManager : public QObject, CLogable
 public:
 
 
-    //
+    //static constans
+    static
