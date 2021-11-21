@@ -22,4 +22,5 @@ public:
     //static constans
     static const char* ACTIVE;
     static const char* DEACTIVE;
-    static const char* RES
+    static const char* RESP_SEPERATOR;
+    static 
