@@ -21,4 +21,5 @@ public:
 
     //static constans
     static const char* ACTIVE;
-    static const char* DEACTIVE
+    static const char* DEACTIVE;
+    static const char* RES
