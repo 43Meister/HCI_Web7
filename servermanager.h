@@ -24,4 +24,4 @@ public:
     static const char* DEACTIVE;
     static const char* RESP_SEPERATOR;
     static const char* SERVER_NAME;
-    static c
+    static const char* END_POINT;
