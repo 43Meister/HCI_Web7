@@ -25,3 +25,4 @@ public:
     static const char* RESP_SEPERATOR;
     static const char* SERVER_NAME;
     static const char* END_POINT;
+    static const char* A
