@@ -26,4 +26,5 @@ public:
     static const char* SERVER_NAME;
     static const char* END_POINT;
     static const char* ACCOUNT;
-    static const c
+    static const char* BALANCE;
+    stat
