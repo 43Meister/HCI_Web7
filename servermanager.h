@@ -27,4 +27,5 @@ public:
     static const char* END_POINT;
     static const char* ACCOUNT;
     static const char* BALANCE;
-    stat
+    static const char* STATUS;
+    s
