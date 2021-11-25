@@ -28,4 +28,4 @@ public:
     static const char* ACCOUNT;
     static const char* BALANCE;
     static const char* STATUS;
-    s
+    static const char* BAS
