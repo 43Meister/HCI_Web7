@@ -28,4 +28,5 @@ public:
     static const char* ACCOUNT;
     static const char* BALANCE;
     static const char* STATUS;
-    static const char* BAS
+    static const char* BASE_IP;
+    static const char* INVA
