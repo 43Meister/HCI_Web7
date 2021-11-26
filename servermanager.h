@@ -29,4 +29,5 @@ public:
     static const char* BALANCE;
     static const char* STATUS;
     static const char* BASE_IP;
-    static const char* INVA
+    static const char* INVALID_IP;
+    static const uin
