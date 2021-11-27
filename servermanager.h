@@ -30,4 +30,4 @@ public:
     static const char* STATUS;
     static const char* BASE_IP;
     static const char* INVALID_IP;
-    static const uin
+    static const uint32_t BASE_IP_STATION;
