@@ -31,3 +31,5 @@ public:
     static const char* BASE_IP;
     static const char* INVALID_IP;
     static const uint32_t BASE_IP_STATION;
+
+    using TStringPair = st
