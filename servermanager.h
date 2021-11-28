@@ -32,4 +32,6 @@ public:
     static const char* INVALID_IP;
     static const uint32_t BASE_IP_STATION;
 
-    using TStringPair = std::pair<QString, QStr
+    using TStringPair = std::pair<QString, QString>;
+
+    using TStringMap = st
