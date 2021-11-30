@@ -34,4 +34,6 @@ public:
 
     using TStringPair = std::pair<QString, QString>;
 
-    using TStringMap = st
+    using TStringMap = std::map<QString, QString>;
+
+   
