@@ -36,4 +36,6 @@ public:
 
     using TStringMap = std::map<QString, QString>;
 
-    using TServTable = std::map<int , TStrin
+    using TServTable = std::map<int , TStringMap>;
+
+    static C
