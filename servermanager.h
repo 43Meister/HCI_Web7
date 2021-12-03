@@ -38,4 +38,6 @@ public:
 
     using TServTable = std::map<int , TStringMap>;
 
-    static CServerManager& get
+    static CServerManager& getReference();
+
+    vo
