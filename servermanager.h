@@ -42,4 +42,4 @@ public:
 
     void registerClient();
 
-  
+    void deleteClient(uint id)
