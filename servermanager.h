@@ -40,4 +40,6 @@ public:
 
     static CServerManager& getReference();
 
-    vo
+    void registerClient();
+
+  
