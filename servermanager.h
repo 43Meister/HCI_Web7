@@ -46,4 +46,4 @@ public:
 
     QStringList toString();
 
-    void
+    void startClient(const 
