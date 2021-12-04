@@ -44,4 +44,6 @@ public:
 
     void deleteClient(uint id);
 
-    QStringList
+    QStringList toString();
+
+    void
