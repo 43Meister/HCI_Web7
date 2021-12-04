@@ -42,4 +42,6 @@ public:
 
     void registerClient();
 
-    void deleteClient(uint id)
+    void deleteClient(uint id);
+
+    QStringList
