@@ -48,4 +48,6 @@ public:
 
     void startClient(const uint id);
 
-    void s
+    void startAll();
+
+    void delet
