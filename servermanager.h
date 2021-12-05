@@ -50,4 +50,6 @@ public:
 
     void startAll();
 
-    void delet
+    void deleteAll();
+
+    TServTa
