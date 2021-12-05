@@ -52,4 +52,6 @@ public:
 
     void deleteAll();
 
-    TServTa
+    TServTable getTableData();
+
+    TSt
