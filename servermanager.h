@@ -54,4 +54,4 @@ public:
 
     TServTable getTableData();
 
-    TStringMap sendMsg(int idx, 
+    TStringMap sendMsg(int idx, QString cmd, QString args, QB
