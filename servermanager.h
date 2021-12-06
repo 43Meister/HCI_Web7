@@ -54,4 +54,4 @@ public:
 
     TServTable getTableData();
 
-    TSt
+    TStringMap sendMsg(int idx, 
