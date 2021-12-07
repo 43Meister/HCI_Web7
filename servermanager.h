@@ -56,4 +56,6 @@ public:
 
     TStringMap sendMsg(int idx, QString cmd, QString args, QByteArray* rawJason = nullptr);
 
-    QStr
+    QString getIp(int idx);
+
+  
