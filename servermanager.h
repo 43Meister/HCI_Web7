@@ -58,4 +58,4 @@ public:
 
     QString getIp(int idx);
 
-  
+    inline void se
