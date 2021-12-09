@@ -58,4 +58,4 @@ public:
 
     QString getIp(int idx);
 
-    inline void setAddress(const uint32_t ind,
+    inline void setAddress(const uint32_t ind, const QString& add)
