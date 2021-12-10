@@ -61,4 +61,7 @@ public:
     inline void setAddress(const uint32_t ind, const QString& add)
     {
         auto cli = m_cliMap.find(ind);
-        cli->second.s
+        cli->second.setAddress(add);
+    }
+
+    
