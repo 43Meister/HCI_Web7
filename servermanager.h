@@ -66,4 +66,5 @@ public:
 
     inline QString getAddress(int idx)
     {
-        auto cli = m_
+        auto cli = m_cliMap.find(idx);
+   
