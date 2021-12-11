@@ -66,4 +66,4 @@ public:
 
     inline QString getAddress(int idx)
     {
-  
+        auto cli = m_
