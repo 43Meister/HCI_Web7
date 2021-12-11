@@ -64,4 +64,6 @@ public:
         cli->second.setAddress(add);
     }
 
-    inline QString get
+    inline QString getAddress(int idx)
+    {
+  
