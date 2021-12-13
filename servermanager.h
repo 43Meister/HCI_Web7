@@ -70,4 +70,4 @@ public:
         return cli->second.getAddress();
     }
 
-    in
+    inline void setBalance(const uint
