@@ -73,4 +73,4 @@ public:
     inline void setBalance(const uint32_t ind, const qlonglong balance)
     {
         auto cli = m_cliMap.find(ind);
-   
+        cli->second.s
