@@ -70,4 +70,6 @@ public:
         return cli->second.getAddress();
     }
 
-    inline void setBalance(const uint32_t ind, const qlongl
+    inline void setBalance(const uint32_t ind, const qlonglong balance)
+    {
+        
