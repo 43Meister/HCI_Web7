@@ -76,4 +76,5 @@ public:
         cli->second.setBalance(balance);
     }
 
-    //delete copy ctor and opera
+    //delete copy ctor and operator=
+    CServerM
