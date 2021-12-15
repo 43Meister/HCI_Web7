@@ -75,3 +75,5 @@ public:
         auto cli = m_cliMap.find(ind);
         cli->second.setBalance(balance);
     }
+
+    //delete copy ctor and opera
