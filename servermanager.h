@@ -77,4 +77,5 @@ public:
     }
 
     //delete copy ctor and operator=
-    CServerManager(CSer
+    CServerManager(CServerManager&) = delete;
+   
