@@ -78,4 +78,8 @@ public:
 
     //delete copy ctor and operator=
     CServerManager(CServerManager&) = delete;
-    CServerManager operator=(CServer
+    CServerManager operator=(CServerManager&) = delete;
+
+signals:
+
+pub
