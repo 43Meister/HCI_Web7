@@ -82,4 +82,7 @@ public:
 
 signals:
 
-pub
+public slots:
+
+private:
+
