@@ -86,3 +86,4 @@ public slots:
 
 private:
 
+    //static member that w
