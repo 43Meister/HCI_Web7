@@ -86,4 +86,5 @@ public slots:
 
 private:
 
-    //static member that w
+    //static member that will hold the ports for clients
+    st
