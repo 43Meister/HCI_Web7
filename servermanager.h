@@ -87,4 +87,5 @@ public slots:
 private:
 
     //static member that will hold the ports for clients
-    static unsigned int s
+    static unsigned int s_port;
+    //static
