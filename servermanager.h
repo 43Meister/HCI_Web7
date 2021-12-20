@@ -88,4 +88,4 @@ private:
 
     //static member that will hold the ports for clients
     static unsigned int s_port;
-    //static
+    //static member that represents d
