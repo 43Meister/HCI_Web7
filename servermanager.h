@@ -91,4 +91,4 @@ private:
     //static member that represents docker ids
     static unsigned int s_id;
 
-    explicit CServerMa
+    explicit CServerManager(QObject *parent = 0);
