@@ -92,3 +92,5 @@ private:
     static unsigned int s_id;
 
     explicit CServerManager(QObject *parent = 0);
+
+    struct SCliWrap: pu
