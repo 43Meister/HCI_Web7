@@ -93,4 +93,6 @@ private:
 
     explicit CServerManager(QObject *parent = 0);
 
-    struct SCliWrap: pu
+    struct SCliWrap: public CLogable
+    {
+    pu
