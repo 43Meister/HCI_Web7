@@ -96,4 +96,4 @@ private:
     struct SCliWrap: public CLogable
     {
     public:
-        SCliWrap(unsi
+        SCliWrap(unsigned int port, uns
