@@ -95,4 +95,5 @@ private:
 
     struct SCliWrap: public CLogable
     {
-    pu
+    public:
+        SCliWrap(unsi
