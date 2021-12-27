@@ -98,4 +98,5 @@ private:
     public:
         SCliWrap(unsigned int port, unsigned int id);
         bool run();
-        bool
+        bool remove();
+        TStringMap
