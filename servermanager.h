@@ -97,4 +97,5 @@ private:
     {
     public:
         SCliWrap(unsigned int port, unsigned int id);
-        bo
+        bool run();
+        bool
