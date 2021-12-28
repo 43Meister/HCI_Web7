@@ -99,4 +99,4 @@ private:
         SCliWrap(unsigned int port, unsigned int id);
         bool run();
         bool remove();
-        TStringMap sendMsg(QString cmd, QStrin
+        TStringMap sendMsg(QString cmd, QString args, QByteArray* rawJ
