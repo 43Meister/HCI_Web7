@@ -101,3 +101,5 @@ private:
         bool remove();
         TStringMap sendMsg(QString cmd, QString args, QByteArray* rawJason = nullptr);
 
+
+        QString toSt
