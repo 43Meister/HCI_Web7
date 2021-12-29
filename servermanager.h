@@ -102,4 +102,6 @@ private:
         TStringMap sendMsg(QString cmd, QString args, QByteArray* rawJason = nullptr);
 
 
-        QString toSt
+        QString toString();
+
+        inline QString 
