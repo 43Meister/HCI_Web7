@@ -106,4 +106,5 @@ private:
 
         inline QString getName()
         {
-        
+            return m_dockName;
+      
