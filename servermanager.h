@@ -109,4 +109,4 @@ private:
             return m_dockName;
         }
 
-        inline QStri
+        inline QString getEndPoint()
