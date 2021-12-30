@@ -104,4 +104,6 @@ private:
 
         QString toString();
 
-        inline QString 
+        inline QString getName()
+        {
+        
