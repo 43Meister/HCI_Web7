@@ -110,3 +110,5 @@ private:
         }
 
         inline QString getEndPoint()
+        {
+       
