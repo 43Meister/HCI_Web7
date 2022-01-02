@@ -112,4 +112,6 @@ private:
         inline QString getEndPoint()
         {
             return m_endPoint;
-    
+        }
+
+        inline QString isAct
