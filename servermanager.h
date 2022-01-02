@@ -111,4 +111,5 @@ private:
 
         inline QString getEndPoint()
         {
-            return 
+            return m_endPoint;
+    
