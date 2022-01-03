@@ -114,4 +114,6 @@ private:
             return m_endPoint;
         }
 
-        inline QString isAct
+        inline QString isActive()
+        {
+       
