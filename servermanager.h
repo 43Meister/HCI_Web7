@@ -116,4 +116,4 @@ private:
 
         inline QString isActive()
         {
-       
+            return m_isActive
