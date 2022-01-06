@@ -119,4 +119,4 @@ private:
             return m_isActive ? ACTIVE : DEACTIVE;
         }
 
-        inline void setAddress
+        inline void setAddress(const QString& add
