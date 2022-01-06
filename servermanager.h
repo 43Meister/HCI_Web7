@@ -119,4 +119,4 @@ private:
             return m_isActive ? ACTIVE : DEACTIVE;
         }
 
-        i
+        inline void setAddress
