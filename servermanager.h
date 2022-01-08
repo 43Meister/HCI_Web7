@@ -121,4 +121,7 @@ private:
 
         inline void setAddress(const QString& add)
         {
-            m_myAddress = ad
+            m_myAddress = add;
+        }
+
+       
