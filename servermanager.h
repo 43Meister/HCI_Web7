@@ -124,4 +124,5 @@ private:
             m_myAddress = add;
         }
 
-        inline void setBalance(const qlonglo
+        inline void setBalance(const qlonglong balance)
+      
