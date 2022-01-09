@@ -126,4 +126,5 @@ private:
 
         inline void setBalance(const qlonglong balance)
         {
-            m_balanc
+            m_balance = balance;
+ 
