@@ -129,4 +129,6 @@ private:
             m_balance = balance;
         }
 
-        inline qlonglong getBala
+        inline qlonglong getBalance()
+        {
+     
