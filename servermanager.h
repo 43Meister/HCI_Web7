@@ -131,4 +131,4 @@ private:
 
         inline qlonglong getBalance()
         {
-     
+            return m_balance;
