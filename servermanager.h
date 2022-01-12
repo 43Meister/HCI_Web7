@@ -134,4 +134,5 @@ private:
             return m_balance;
         }
 
-        inline QSt
+        inline QString& getAddress()
+        {
