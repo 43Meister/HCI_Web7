@@ -136,4 +136,9 @@ private:
 
         inline QString& getAddress()
         {
-            return 
+            return m_myAddress;
+        }
+
+
+    private:
+ 
