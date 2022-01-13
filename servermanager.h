@@ -136,3 +136,4 @@ private:
 
         inline QString& getAddress()
         {
+            return 
