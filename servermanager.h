@@ -141,4 +141,5 @@ private:
 
 
     private:
-        QString m_dockName
+        QString m_dockName;
+        QString m_dock
