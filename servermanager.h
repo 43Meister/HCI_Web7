@@ -142,4 +142,5 @@ private:
 
     private:
         QString m_dockName;
-        QString m_dock
+        QString m_dockCmd;
+        QString m_dockRm;
