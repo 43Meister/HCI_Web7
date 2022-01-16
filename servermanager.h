@@ -145,4 +145,5 @@ private:
         QString m_dockCmd;
         QString m_dockRm;
         QString m_demonRun;
-        QString m_endPo
+        QString m_endPoint;
+        bool m_isActive =
