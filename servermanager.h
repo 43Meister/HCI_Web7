@@ -145,3 +145,4 @@ private:
         QString m_dockCmd;
         QString m_dockRm;
         QString m_demonRun;
+        QString m_endPo
