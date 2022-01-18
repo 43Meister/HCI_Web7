@@ -146,4 +146,4 @@ private:
         QString m_dockRm;
         QString m_demonRun;
         QString m_endPoint;
-        bool m_isActive =
+        bool m_isActive = false; //c++11 init sty
