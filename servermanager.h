@@ -148,4 +148,5 @@ private:
         QString m_endPoint;
         bool m_isActive = false; //c++11 init style
         QString m_myAddress = "N/A";
-        qlon
+        qlonglong m_balance = -1;
+   
