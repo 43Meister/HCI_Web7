@@ -147,4 +147,5 @@ private:
         QString m_demonRun;
         QString m_endPoint;
         bool m_isActive = false; //c++11 init style
-        QString m_my
+        QString m_myAddress = "N/A";
+        qlon
