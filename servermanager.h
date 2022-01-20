@@ -149,4 +149,6 @@ private:
         bool m_isActive = false; //c++11 init style
         QString m_myAddress = "N/A";
         qlonglong m_balance = -1;
-        std::unique_ptr<CJas
+        std::unique_ptr<CJasonHttpClient> m_cli;
+
+        v
