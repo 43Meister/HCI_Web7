@@ -151,4 +151,5 @@ private:
         qlonglong m_balance = -1;
         std::unique_ptr<CJasonHttpClient> m_cli;
 
-        void runDockerCmd(const Q
+        void runDockerCmd(const QString& args);
+        TStringMap 
