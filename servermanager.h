@@ -152,4 +152,5 @@ private:
         std::unique_ptr<CJasonHttpClient> m_cli;
 
         void runDockerCmd(const QString& args);
-        TStringMap parse(QJsonRpc
+        TStringMap parse(QJsonRpcMessage msg);
+        void pa
