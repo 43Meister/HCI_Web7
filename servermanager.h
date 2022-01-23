@@ -155,4 +155,4 @@ private:
         TStringMap parse(QJsonRpcMessage msg);
         void parse(const QJsonArray& arr, QString& respMap);
         void parse(const QJsonObject& obj,QString& respMap);
-  
+        void parse(const QJs
