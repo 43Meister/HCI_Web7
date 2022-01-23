@@ -154,4 +154,4 @@ private:
         void runDockerCmd(const QString& args);
         TStringMap parse(QJsonRpcMessage msg);
         void parse(const QJsonArray& arr, QString& respMap);
-        void parse(cons
+        void parse(const QJsonObject& obj,Q
