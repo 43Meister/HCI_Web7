@@ -156,4 +156,4 @@ private:
         void parse(const QJsonArray& arr, QString& respMap);
         void parse(const QJsonObject& obj,QString& respMap);
         void parse(const QJsonValue& val, QString& respMap);
-        void parseByTyp
+        void parseByType(const QJsonValue& val, QSt
