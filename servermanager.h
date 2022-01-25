@@ -158,3 +158,5 @@ private:
         void parse(const QJsonValue& val, QString& respMap);
         void parseByType(const QJsonValue& val, QString& respMap);
     };
+
+    template 
