@@ -160,4 +160,6 @@ private:
     };
 
     template <typename TFunc>
-    void forEach(TFunc f
+    void forEach(TFunc func)
+    {
+        //
