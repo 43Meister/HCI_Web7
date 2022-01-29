@@ -163,4 +163,7 @@ private:
     void forEach(TFunc func)
     {
         //std::for
-        std::for_each(m_cliMap.begin(), m_cliMap.end(), 
+        std::for_each(m_cliMap.begin(), m_cliMap.end(), func);
+    }
+
+    //
