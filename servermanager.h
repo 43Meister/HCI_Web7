@@ -169,4 +169,4 @@ private:
     //using this pair for map  easy access
     using TCliPair = std::pair<const uint,SCliWrap>;
 
-    std::m
+    std::map<const uint, SCliWrap> 
