@@ -173,4 +173,4 @@ private:
 
 };
 
-#end
+#endif // SERVERMANAGER_H
