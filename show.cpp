@@ -1,2 +1,3 @@
 #include "show.h"
-#include "ui_show
+#include "ui_show.h"
+#include "s
