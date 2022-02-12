@@ -23,3 +23,11 @@ private slots:
     void on_buttonBox_rejected();
 
     void on_lineEdit_editingFinished();
+
+private:
+    Ui::CSettingsWin *ui;
+
+    int m_numOfDockers;
+};
+
+#endif // SETTINGSWIN_H
