@@ -42,3 +42,4 @@ void CSettingsWin::on_buttonBox_rejected()
 void CSettingsWin::on_lineEdit_editingFinished()
 {
     m_numOfDockers = ((ui->lineEdit)->text()).toInt();
+}
