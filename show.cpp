@@ -1,3 +1,5 @@
 #include "show.h"
 #include "ui_show.h"
-#include "s
+#include "servermanager.h"
+
+CShow::
