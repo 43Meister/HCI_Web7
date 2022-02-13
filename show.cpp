@@ -4,4 +4,6 @@
 
 CShow::CShow(QWidget *parent) :
     QDialog(parent),
-    ui(new Ui
+    ui(new Ui::CShow)
+{
+    ui->setup
