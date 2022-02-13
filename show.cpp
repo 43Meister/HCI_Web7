@@ -3,4 +3,5 @@
 #include "servermanager.h"
 
 CShow::CShow(QWidget *parent) :
-    Q
+    QDialog(parent),
+    ui(new Ui
