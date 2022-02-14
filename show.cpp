@@ -11,4 +11,7 @@ CShow::CShow(QWidget *parent) :
 
 CShow::~CShow()
 {
-    delete u
+    delete ui;
+}
+
+void CShow::o
