@@ -9,4 +9,6 @@ CShow::CShow(QWidget *parent) :
     ui->setupUi(this);
 }
 
-CShow::~CShow
+CShow::~CShow()
+{
+    delete u
