@@ -14,4 +14,7 @@ CShow::~CShow()
     delete ui;
 }
 
-void CShow::on_pushButton_cli
+void CShow::on_pushButton_clicked()
+{
+    hide();
+}
