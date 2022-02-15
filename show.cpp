@@ -21,4 +21,4 @@ void CShow::on_pushButton_clicked()
 
 void CShow::on_pushButton_2_clicked()
 {
-   
+    auto tableData = std::move(C
