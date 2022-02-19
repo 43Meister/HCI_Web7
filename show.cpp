@@ -26,4 +26,6 @@ void CShow::on_pushButton_2_clicked()
     ui->tableWidget->setRowCount(tableData.size());
     ui->tableWidget->setColumnCount(std::begin(tableData)->second.size());
 
-    QStringList l
+    QStringList lables;
+
+    for (auto& l
