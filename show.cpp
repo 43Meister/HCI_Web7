@@ -28,4 +28,5 @@ void CShow::on_pushButton_2_clicked()
 
     QStringList lables;
 
-    for (auto& lable : std::begin(tableD
+    for (auto& lable : std::begin(tableData)->second)
+    
