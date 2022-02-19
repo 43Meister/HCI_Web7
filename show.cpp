@@ -34,4 +34,4 @@ void CShow::on_pushButton_2_clicked()
     }
 
     ui->tableWidget->setHorizontalHeaderLabels(lables);
-    u
+    ui->tableWidget->verticalHead
