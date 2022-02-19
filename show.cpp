@@ -30,4 +30,7 @@ void CShow::on_pushButton_2_clicked()
 
     for (auto& lable : std::begin(tableData)->second)
     {
-       lables << ((lable.first).split("_"))[1]
+       lables << ((lable.first).split("_"))[1];
+    }
+
+    ui->tableWidge
