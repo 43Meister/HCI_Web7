@@ -33,4 +33,5 @@ void CShow::on_pushButton_2_clicked()
        lables << ((lable.first).split("_"))[1];
     }
 
-    ui->tableWidget->setHorizontalH
+    ui->tableWidget->setHorizontalHeaderLabels(lables);
+    u
