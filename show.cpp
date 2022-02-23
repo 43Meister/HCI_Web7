@@ -40,4 +40,5 @@ void CShow::on_pushButton_2_clicked()
 
     for (auto& outer : tableData)
     {
-     
+        int innerIdx(0);
+    
