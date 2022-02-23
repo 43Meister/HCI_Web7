@@ -38,4 +38,6 @@ void CShow::on_pushButton_2_clicked()
 
 
 
-    for (auto& outer
+    for (auto& outer : tableData)
+    {
+     
