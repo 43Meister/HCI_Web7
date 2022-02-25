@@ -45,4 +45,4 @@ void CShow::on_pushButton_2_clicked()
         for (auto& inner : outer.second)
         {
             ui->tableWidget->setColumnWidth(innerIdx, inner.second.size()+154);
-            ui->table
+            ui->tableWidget->setItem(outerIdx, inne
