@@ -45,4 +45,5 @@ void CShow::on_pushButton_2_clicked()
         for (auto& inner : outer.second)
         {
             ui->tableWidget->setColumnWidth(innerIdx, inner.second.size()+154);
-            ui->tableWidget->setItem(outerIdx, innerIdx++, new QTableWidgetI
+            ui->tableWidget->setItem(outerIdx, innerIdx++, new QTableWidgetItem(inner.second));
+        
