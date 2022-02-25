@@ -42,4 +42,6 @@ void CShow::on_pushButton_2_clicked()
     {
         int innerIdx(0);
         int outerIdx(outer.first);
-        for (auto& inn
+        for (auto& inner : outer.second)
+        {
+    
