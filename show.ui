@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>CShow</class>
- <widget class="QDialog" na
+ <widget class="QDialog" name="CShow">
+  <property n
