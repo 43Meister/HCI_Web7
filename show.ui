@@ -2,4 +2,5 @@
 <ui version="4.0">
  <class>CShow</class>
  <widget class="QDialog" name="CShow">
-  <property n
+  <property name="geometry">
+   <re
