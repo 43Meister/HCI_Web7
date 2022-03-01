@@ -3,4 +3,6 @@
  <class>CShow</class>
  <widget class="QDialog" name="CShow">
   <property name="geometry">
-   <re
+   <rect>
+    <x>0</x>
+    <y>0
