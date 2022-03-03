@@ -10,4 +10,5 @@
     <height>512</height>
    </rect>
   </property>
-  <property name="win
+  <property name="windowTitle">
+   <string>Dialog</st
