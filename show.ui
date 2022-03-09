@@ -26,4 +26,4 @@
     <string>Close</string>
    </property>
   </widget>
-  <widget cl
+  <widget class="QPushButton" name
