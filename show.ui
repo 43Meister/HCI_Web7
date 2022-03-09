@@ -27,4 +27,5 @@
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton_2">
-   <property na
+   <property name="geometry">
+    
