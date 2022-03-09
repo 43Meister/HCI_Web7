@@ -28,4 +28,5 @@
   </widget>
   <widget class="QPushButton" name="pushButton_2">
    <property name="geometry">
-    
+    <rect>
+     <x>310</x>
