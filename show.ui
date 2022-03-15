@@ -39,4 +39,4 @@
     <string>Show/Refresh</string>
    </property>
   </widget>
-  <widg
+  <widget class="QTableWidget" name="tab
