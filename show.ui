@@ -41,4 +41,6 @@
   </widget>
   <widget class="QTableWidget" name="tableWidget">
    <property name="geometry">
-    <r
+    <rect>
+     <x>35</x>
+     <y>
