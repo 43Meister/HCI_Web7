@@ -3,3 +3,5 @@
 #include "servermanager.h"
 
 CShowResp::CShowResp(QWidget *parent) :
+    QDialog(parent),
+ 
