@@ -10,3 +10,5 @@ CShowResp::CShowResp(QWidget *parent) :
 }
 
 CShowResp::~CShowResp()
+{
+    delete u
