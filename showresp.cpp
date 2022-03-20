@@ -11,4 +11,8 @@ CShowResp::CShowResp(QWidget *parent) :
 
 CShowResp::~CShowResp()
 {
-    delete u
+    delete ui;
+}
+
+
+void CShowResp::showF
