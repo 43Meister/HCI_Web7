@@ -2,4 +2,4 @@
 #include "ui_showresp.h"
 #include "servermanager.h"
 
-CShowResp::CShowRe
+CShowResp::CShowResp(QWidget *parent) :
