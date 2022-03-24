@@ -15,4 +15,6 @@ CShowResp::~CShowResp()
 }
 
 
-void CShowResp::showFullResp(const QString& respName, const QString& resp, c
+void CShowResp::showFullResp(const QString& respName, const QString& resp, const QString& cmd)
+{
+    //create
