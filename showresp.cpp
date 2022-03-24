@@ -17,4 +17,4 @@ CShowResp::~CShowResp()
 
 void CShowResp::showFullResp(const QString& respName, const QString& resp, const QString& cmd)
 {
-    //create
+    //create string list from re
