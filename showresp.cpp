@@ -15,4 +15,4 @@ CShowResp::~CShowResp()
 }
 
 
-void CShowResp::showFullResp(const QString& respName, c
+void CShowResp::showFullResp(const QString& respName, const QString& resp, c
