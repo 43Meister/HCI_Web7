@@ -22,3 +22,4 @@ void CShowResp::showFullResp(const QString& respName, const QString& resp, const
 
     auto lable(respName + " For: " + cmd);
 
+    ui->label->se
