@@ -18,4 +18,4 @@ CShowResp::~CShowResp()
 void CShowResp::showFullResp(const QString& respName, const QString& resp, const QString& cmd)
 {
     //create string list from resp
-    auto respLst(resp.split(CServerManager::R
+    auto respLst(resp.split(CServerManager::RESP_SEPERATOR)
