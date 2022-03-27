@@ -24,4 +24,6 @@ void CShowResp::showFullResp(const QString& respName, const QString& resp, const
 
     ui->label->setText(std::move(lable));
 
-    ui->listWidget
+    ui->listWidget->addItems(respLst);
+
+  
