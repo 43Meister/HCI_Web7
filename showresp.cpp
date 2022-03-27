@@ -27,3 +27,7 @@ void CShowResp::showFullResp(const QString& respName, const QString& resp, const
     ui->listWidget->addItems(respLst);
 
     QDialog::show();
+}
+
+
+void CShowResp::on
