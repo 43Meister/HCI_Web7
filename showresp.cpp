@@ -36,4 +36,6 @@ void CShowResp::on_buttonBox_accepted()
     hide();
 }
 
-void CShowResp::on_buttonBox_rejected
+void CShowResp::on_buttonBox_rejected()
+{
+    on_buttonBox_a
