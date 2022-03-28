@@ -38,4 +38,5 @@ void CShowResp::on_buttonBox_accepted()
 
 void CShowResp::on_buttonBox_rejected()
 {
-    on_buttonBox_a
+    on_buttonBox_accepted();
+}
