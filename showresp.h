@@ -1,1 +1,2 @@
-#ifndef SHOWR
+#ifndef SHOWRESP_H
+#define SHOWRESP_H
