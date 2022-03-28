@@ -33,4 +33,7 @@ void CShowResp::showFullResp(const QString& respName, const QString& resp, const
 void CShowResp::on_buttonBox_accepted()
 {
     ui->listWidget->clear();
-    h
+    hide();
+}
+
+void CShowRe
