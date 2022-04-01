@@ -8,4 +8,6 @@ namespace Ui {
 class CShowResp;
 }
 
-class CShowRes
+class CShowResp : public QDialog
+{
+    Q_
