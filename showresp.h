@@ -10,4 +10,7 @@ class CShowResp;
 
 class CShowResp : public QDialog
 {
-    Q_
+    Q_OBJECT
+
+public:
+    ex
