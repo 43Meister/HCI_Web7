@@ -5,4 +5,7 @@
 #include <QString>
 
 namespace Ui {
-class CSho
+class CShowResp;
+}
+
+class CShowRes
