@@ -13,4 +13,4 @@ class CShowResp : public QDialog
     Q_OBJECT
 
 public:
-    ex
+    explicit CShowResp(QWidget 
