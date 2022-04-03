@@ -15,3 +15,5 @@ class CShowResp : public QDialog
 public:
     explicit CShowResp(QWidget *parent = 0);
     ~CShowResp();
+
+    void showFullResp
