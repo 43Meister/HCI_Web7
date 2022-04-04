@@ -16,4 +16,4 @@ public:
     explicit CShowResp(QWidget *parent = 0);
     ~CShowResp();
 
-    void showFullResp
+    void showFullResp(const QString& respName, 
