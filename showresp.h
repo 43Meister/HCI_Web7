@@ -16,4 +16,7 @@ public:
     explicit CShowResp(QWidget *parent = 0);
     ~CShowResp();
 
-    void showFullResp(const QString& respName, const QString& resp, const Q
+    void showFullResp(const QString& respName, const QString& resp, const QString& cmd);
+
+private slots:
+   
