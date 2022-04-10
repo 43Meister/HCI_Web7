@@ -19,4 +19,6 @@ public:
     void showFullResp(const QString& respName, const QString& resp, const QString& cmd);
 
 private slots:
-    void on_buttonBox_acc
+    void on_buttonBox_accepted();
+
+    voi
