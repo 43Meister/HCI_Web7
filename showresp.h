@@ -24,4 +24,7 @@ private slots:
     void on_buttonBox_rejected();
 
 private:
-    Ui::CShowRes
+    Ui::CShowResp *ui;
+};
+
+#endif // S
