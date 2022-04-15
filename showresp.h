@@ -27,4 +27,4 @@ private:
     Ui::CShowResp *ui;
 };
 
-#endif // S
+#endif // SHOWRESP_H
