@@ -2,4 +2,6 @@
 <ui version="4.0">
  <class>CShowResp</class>
  <widget class="QDialog" name="CShowResp">
-  <property name="geomet
+  <property name="geometry">
+   <rect>
+    <x>0<
