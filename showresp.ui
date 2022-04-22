@@ -10,4 +10,5 @@
     <height>275</height>
    </rect>
   </property>
-  <proper
+  <property name="windowTitle">
+   <stri
