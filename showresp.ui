@@ -12,4 +12,5 @@
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
-  </pro
+  </property>
+  <widget class="
