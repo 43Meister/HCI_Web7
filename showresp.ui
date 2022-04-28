@@ -13,4 +13,5 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QDialogButtonBox" name="b
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <propert
