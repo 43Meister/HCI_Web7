@@ -22,4 +22,5 @@
      <height>41</height>
     </rect>
    </property>
-   <property name="orie
+   <property name="orientation">
+    <enum>Qt::Horiz
