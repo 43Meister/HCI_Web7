@@ -23,4 +23,5 @@
     </rect>
    </property>
    <property name="orientation">
-    <enum>Qt::Horiz
+    <enum>Qt::Horizontal</enum>
+   </propert
