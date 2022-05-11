@@ -26,4 +26,4 @@
     <enum>Qt::Horizontal</enum>
    </property>
    <property name="standardButtons">
-    <set>QDialogButtonBox::Can
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::
