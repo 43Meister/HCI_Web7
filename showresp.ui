@@ -29,4 +29,4 @@
     <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
    </property>
   </widget>
-  <widget class="Q
+  <widget class="QListWidget" name="list
