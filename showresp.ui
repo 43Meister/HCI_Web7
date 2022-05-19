@@ -30,4 +30,6 @@
    </property>
   </widget>
   <widget class="QListWidget" name="listWidget">
-   <property name="geome
+   <property name="geometry">
+    <rect>
+     <x>30</x>
