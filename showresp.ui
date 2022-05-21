@@ -39,4 +39,4 @@
     </rect>
    </property>
   </widget>
-  <widget
+  <widget class="QLabel" name="labe
