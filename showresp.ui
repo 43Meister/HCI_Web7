@@ -40,4 +40,6 @@
    </property>
   </widget>
   <widget class="QLabel" name="label">
-   <property name="geometr
+   <property name="geometry">
+    <rect>
+     <x
