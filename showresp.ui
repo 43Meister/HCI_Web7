@@ -56,4 +56,5 @@
  <resources/>
  <connections>
   <connection>
-   <s
+   <sender>buttonBox</sender>
+ 
