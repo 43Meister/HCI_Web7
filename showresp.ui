@@ -57,4 +57,5 @@
  <connections>
   <connection>
    <sender>buttonBox</sender>
-   <signal>accepted()<
+   <signal>accepted()</signal>
+   <receiver>CShow
