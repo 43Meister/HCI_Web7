@@ -57,4 +57,4 @@
  <connections>
   <connection>
    <sender>buttonBox</sender>
- 
+   <signal>accepted()<
