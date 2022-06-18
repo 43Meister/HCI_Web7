@@ -59,4 +59,5 @@
    <sender>buttonBox</sender>
    <signal>accepted()</signal>
    <receiver>CShowResp</receiver>
-   <sl
+   <slot>accept()</slot>
+   
