@@ -61,4 +61,5 @@
    <receiver>CShowResp</receiver>
    <slot>accept()</slot>
    <hints>
-    <hint ty
+    <hint type="sourcelabel">
+   
