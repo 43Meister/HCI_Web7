@@ -73,4 +73,5 @@
   </connection>
   <connection>
    <sender>buttonBox</sender>
-   <signal>rejected()
+   <signal>rejected()</signal>
+   <receiver>CShow
