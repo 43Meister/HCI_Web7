@@ -72,4 +72,5 @@
    </hints>
   </connection>
   <connection>
-   <sender>buttonBox</sen
+   <sender>buttonBox</sender>
+   <signal>rejected()
