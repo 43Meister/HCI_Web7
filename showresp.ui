@@ -74,4 +74,5 @@
   <connection>
    <sender>buttonBox</sender>
    <signal>rejected()</signal>
-   <receiver>CShow
+   <receiver>CShowResp</receiver>
+   <slot>rejec
