@@ -77,4 +77,4 @@
    <receiver>CShowResp</receiver>
    <slot>reject()</slot>
    <hints>
-    
+    <hint type="sourcelabel"
