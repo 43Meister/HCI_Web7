@@ -75,4 +75,6 @@
    <sender>buttonBox</sender>
    <signal>rejected()</signal>
    <receiver>CShowResp</receiver>
-   <slot>rejec
+   <slot>reject()</slot>
+   <hints>
+    
