@@ -1,3 +1,4 @@
 #include "startservers.h"
 #include "ui_startservers.h"
-#include <std
+#include <stdlib.h>
+#include <iostream>
