@@ -4,4 +4,4 @@
 #include <iostream>
 #include "servermanager.h"
 
-CStartServer
+CStartServers::CStartServers(QWidget 
