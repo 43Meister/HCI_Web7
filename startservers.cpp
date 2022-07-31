@@ -5,4 +5,5 @@
 #include "servermanager.h"
 
 CStartServers::CStartServers(QWidget *parent) :
-    QDialog(pa
+    QDialog(parent),
+    CLogable("Start
