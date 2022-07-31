@@ -4,4 +4,5 @@
 #include <iostream>
 #include "servermanager.h"
 
-CStartServers::CStartServers(QWidget 
+CStartServers::CStartServers(QWidget *parent) :
+    QDialog(pa
