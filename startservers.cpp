@@ -7,4 +7,6 @@
 CStartServers::CStartServers(QWidget *parent) :
     QDialog(parent),
     CLogable("StartServerDialogLog"),
-   
+    ui(new Ui::StartServers)
+{
+    ui
