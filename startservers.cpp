@@ -6,4 +6,5 @@
 
 CStartServers::CStartServers(QWidget *parent) :
     QDialog(parent),
-    CLogable("Start
+    CLogable("StartServerDialogLog"),
+   
