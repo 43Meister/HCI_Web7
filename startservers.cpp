@@ -12,4 +12,4 @@ CStartServers::CStartServers(QWidget *parent) :
     ui->setupUi(this);
 }
 
-CS
+CStartServers::~CStartS
