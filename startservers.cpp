@@ -12,4 +12,9 @@ CStartServers::CStartServers(QWidget *parent) :
     ui->setupUi(this);
 }
 
-CStartServers::~CStartS
+CStartServers::~CStartServers()
+{
+    delete ui;
+}
+
+vo
