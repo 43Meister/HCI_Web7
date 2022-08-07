@@ -17,4 +17,6 @@ CStartServers::~CStartServers()
     delete ui;
 }
 
-vo
+void CStartServers::show()
+{
+   
