@@ -19,4 +19,4 @@ CStartServers::~CStartServers()
 
 void CStartServers::show()
 {
-   
+    std::string errMs
