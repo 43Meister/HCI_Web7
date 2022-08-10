@@ -19,4 +19,5 @@ CStartServers::~CStartServers()
 
 void CStartServers::show()
 {
-    std::string errMs
+    std::string errMsg("");
+    ui->comboBox->cle
