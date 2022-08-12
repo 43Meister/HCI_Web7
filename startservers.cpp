@@ -20,4 +20,6 @@ CStartServers::~CStartServers()
 void CStartServers::show()
 {
     std::string errMsg("");
-    ui->comboBox->cle
+    ui->comboBox->clear();
+
+    auto data = std::
