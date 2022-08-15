@@ -22,4 +22,5 @@ void CStartServers::show()
     std::string errMsg("");
     ui->comboBox->clear();
 
-    auto data = std::move(CServerManager::getReference().getTableDat
+    auto data = std::move(CServerManager::getReference().getTableData());
+    ui->comboBox->addIt
