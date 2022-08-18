@@ -24,3 +24,6 @@ void CStartServers::show()
 
     auto data = std::move(CServerManager::getReference().getTableData());
     ui->comboBox->addItem("All", QVariant(-1));
+
+
+    for (auto& outer : 
