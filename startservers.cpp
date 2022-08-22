@@ -28,4 +28,4 @@ void CStartServers::show()
 
     for (auto& outer : data)
     {
-        if (ui->comboBox->findText(out
+        if (ui->comboBox->findText(outer.second[CServerMan
