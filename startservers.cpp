@@ -28,4 +28,6 @@ void CStartServers::show()
 
     for (auto& outer : data)
     {
-        if (ui->comboBox->findText(outer.second[CServerManager::SERVER_NAME]) == 
+        if (ui->comboBox->findText(outer.second[CServerManager::SERVER_NAME]) == -1)
+        {
+      
