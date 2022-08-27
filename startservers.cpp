@@ -31,4 +31,4 @@ void CStartServers::show()
         if (ui->comboBox->findText(outer.second[CServerManager::SERVER_NAME]) == -1)
         {
             //qDebug() << "the status is: " <<  outer.second["Status"];
-            LOGGER_HELPER(DEBUG, errMsg, QString("the status
+            LOGGER_HELPER(DEBUG, errMsg, QString("the status is "),  outer.second["
