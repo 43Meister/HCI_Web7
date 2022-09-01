@@ -33,4 +33,5 @@ void CStartServers::show()
             //qDebug() << "the status is: " <<  outer.second["Status"];
             LOGGER_HELPER(DEBUG, errMsg, QString("the status is "),  outer.second["Status"]);
             if (outer.second[CServerManager::STATUS] == CServerManager::DEACTIVE)
- 
+            {
+               
