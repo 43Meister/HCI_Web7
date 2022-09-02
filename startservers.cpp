@@ -34,4 +34,4 @@ void CStartServers::show()
             LOGGER_HELPER(DEBUG, errMsg, QString("the status is "),  outer.second["Status"]);
             if (outer.second[CServerManager::STATUS] == CServerManager::DEACTIVE)
             {
-                ui->comboBox->addItem(ou
+                ui->comboBox->addItem(outer.second[CServerManage
