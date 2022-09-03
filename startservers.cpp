@@ -35,3 +35,5 @@ void CStartServers::show()
             if (outer.second[CServerManager::STATUS] == CServerManager::DEACTIVE)
             {
                 ui->comboBox->addItem(outer.second[CServerManager::SERVER_NAME], QVariant(outer.first));
+            }
+      
