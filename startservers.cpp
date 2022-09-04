@@ -36,4 +36,7 @@ void CStartServers::show()
             {
                 ui->comboBox->addItem(outer.second[CServerManager::SERVER_NAME], QVariant(outer.first));
             }
-      
+        }
+    }
+
+    QDialog::
