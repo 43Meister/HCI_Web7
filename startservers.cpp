@@ -39,4 +39,7 @@ void CStartServers::show()
         }
     }
 
-    QDialog::
+    QDialog::show();
+}
+
+void CStartSer
