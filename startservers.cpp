@@ -42,4 +42,4 @@ void CStartServers::show()
     QDialog::show();
 }
 
-void CStartSer
+void CStartServers::on_pushButton_c
