@@ -42,4 +42,7 @@ void CStartServers::show()
     QDialog::show();
 }
 
-void CStartServers::on_pushButton_c
+void CStartServers::on_pushButton_clicked()
+{
+
+    std::s
