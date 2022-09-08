@@ -45,4 +45,5 @@ void CStartServers::show()
 void CStartServers::on_pushButton_clicked()
 {
 
-    std::s
+    std::string errMsg("");
+ 
