@@ -46,4 +46,5 @@ void CStartServers::on_pushButton_clicked()
 {
 
     std::string errMsg("");
-    auto currVal = ui->comboBox->currentData().toString()
+    auto currVal = ui->comboBox->currentData().toString();
+    (currVal == "-1") ? curr
