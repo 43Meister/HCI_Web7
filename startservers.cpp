@@ -49,4 +49,5 @@ void CStartServers::on_pushButton_clicked()
     auto currVal = ui->comboBox->currentData().toString();
     (currVal == "-1") ? currVal = "All" : "";
 
-    //qDebug() << "Strting server: [ "  << currVal << 
+    //qDebug() << "Strting server: [ "  << currVal << "]";
+    LOGGER_HELPER(DEB
