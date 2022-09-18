@@ -52,4 +52,6 @@ void CStartServers::on_pushButton_clicked()
     //qDebug() << "Strting server: [ "  << currVal << "]";
     LOGGER_HELPER(DEBUG, errMsg, "Starting server: [ ", currVal ," ]");
 
-    if (currVal =
+    if (currVal == "All")
+    {
+        C
