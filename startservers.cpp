@@ -54,4 +54,6 @@ void CStartServers::on_pushButton_clicked()
 
     if (currVal == "All")
     {
-        CServerManager::getReference().sta
+        CServerManager::getReference().startAll();
+    }
+    else
