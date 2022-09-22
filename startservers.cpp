@@ -56,4 +56,4 @@ void CStartServers::on_pushButton_clicked()
     {
         CServerManager::getReference().startAll();
     }
-    else
+    else //we just need to start one s
