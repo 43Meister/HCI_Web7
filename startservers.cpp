@@ -56,4 +56,6 @@ void CStartServers::on_pushButton_clicked()
     {
         CServerManager::getReference().startAll();
     }
-    else //we just need to start one s
+    else //we just need to start one server
+    {
+        CServe
