@@ -58,4 +58,4 @@ void CStartServers::on_pushButton_clicked()
     }
     else //we just need to start one server
     {
-        CServerManager::getReference().st
+        CServerManager::getReference().startClient(currVal.toInt()
