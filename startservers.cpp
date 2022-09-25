@@ -61,4 +61,5 @@ void CStartServers::on_pushButton_clicked()
         CServerManager::getReference().startClient(currVal.toInt());
     }
 
-    hid
+    hide();
+}
