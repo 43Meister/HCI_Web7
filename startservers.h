@@ -15,3 +15,16 @@ class CStartServers : public QDialog, CLogable
     Q_OBJECT
 
 public:
+    explicit CStartServers(QWidget *parent = 0);
+    ~CStartServers();
+
+    virtual void show();
+
+private slots:
+    void on_pushButton_clicked();
+
+private:
+    Ui::StartServers *ui;
+};
+
+#endif // STARTSERVERS_H
