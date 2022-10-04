@@ -2,4 +2,6 @@
 <ui version="4.0">
  <class>StartServers</class>
  <widget class="QDialog" name="StartServers">
-  <property name="geometry
+  <property name="geometry">
+   <rect>
+    <x>0</x>
