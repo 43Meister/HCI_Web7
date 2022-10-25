@@ -26,4 +26,4 @@
     <string>Start</string>
    </property>
   </widget>
-  <widget cla
+  <widget class="QComboBox" name="comb
