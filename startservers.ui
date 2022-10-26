@@ -26,4 +26,5 @@
     <string>Start</string>
    </property>
   </widget>
-  <widget class="QComboBox" name="comb
+  <widget class="QComboBox" name="comboBox">
+   <property name="geo
