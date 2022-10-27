@@ -27,4 +27,5 @@
    </property>
   </widget>
   <widget class="QComboBox" name="comboBox">
-   <property name="geo
+   <property name="geometry">
+    <rect>
