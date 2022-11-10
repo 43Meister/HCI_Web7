@@ -1,2 +1,3 @@
 #include "stopservers.h"
-#include "
+#include "ui_stopservers.h"
+#inclu
