@@ -2,4 +2,4 @@
 #include "ui_stopservers.h"
 #include "servermanager.h"
 
-CSt
+CStopServers::CStopSe
