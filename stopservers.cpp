@@ -3,4 +3,5 @@
 #include "servermanager.h"
 
 CStopServers::CStopServers(QWidget *parent) :
-    QDialog(pare
+    QDialog(parent),
+    CLogable("Sto
