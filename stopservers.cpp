@@ -2,4 +2,5 @@
 #include "ui_stopservers.h"
 #include "servermanager.h"
 
-CStopServers::CStopServers(QWidget *parent
+CStopServers::CStopServers(QWidget *parent) :
+    QDialog(pare
