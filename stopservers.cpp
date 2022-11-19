@@ -4,4 +4,5 @@
 
 CStopServers::CStopServers(QWidget *parent) :
     QDialog(parent),
-    CLogable("Sto
+    CLogable("StopServerLogger"),
+    ui(new Ui
