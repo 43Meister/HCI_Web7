@@ -7,4 +7,7 @@ CStopServers::CStopServers(QWidget *parent) :
     CLogable("StopServerLogger"),
     ui(new Ui::CStopServers)
 {
-    ui->s
+    ui->setupUi(this);
+}
+
+CStopSer
