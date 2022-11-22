@@ -10,4 +10,6 @@ CStopServers::CStopServers(QWidget *parent) :
     ui->setupUi(this);
 }
 
-CStopSer
+CStopServers::~CStopServers()
+{
+   
