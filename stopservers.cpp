@@ -12,4 +12,8 @@ CStopServers::CStopServers(QWidget *parent) :
 
 CStopServers::~CStopServers()
 {
-   
+    delete ui;
+}
+
+
+voi
