@@ -16,4 +16,4 @@ CStopServers::~CStopServers()
 }
 
 
-voi
+void CStopServers::sh
