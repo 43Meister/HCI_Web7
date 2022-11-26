@@ -16,4 +16,6 @@ CStopServers::~CStopServers()
 }
 
 
-void CStopServers::sh
+void CStopServers::show()
+{
+    std::string 
