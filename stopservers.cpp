@@ -18,4 +18,5 @@ CStopServers::~CStopServers()
 
 void CStopServers::show()
 {
-    std::string 
+    std::string errMsg("");
+    ui->c
