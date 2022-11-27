@@ -19,4 +19,6 @@ CStopServers::~CStopServers()
 void CStopServers::show()
 {
     std::string errMsg("");
-    ui->c
+    ui->comboBox->clear();
+
+    auto dat
