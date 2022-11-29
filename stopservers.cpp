@@ -21,4 +21,4 @@ void CStopServers::show()
     std::string errMsg("");
     ui->comboBox->clear();
 
-    auto data = std::move(CServerMana
+    auto data = std::move(CServerManager::getReference().getTableData(
