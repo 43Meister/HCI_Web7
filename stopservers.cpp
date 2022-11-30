@@ -22,4 +22,4 @@ void CStopServers::show()
     ui->comboBox->clear();
 
     auto data = std::move(CServerManager::getReference().getTableData());
-    ui->comboBox->add
+    ui->comboBox->addItem("All", QVariant(-1
