@@ -25,4 +25,6 @@ void CStopServers::show()
     ui->comboBox->addItem("All", QVariant(-1));
 
 
-    for (auto& 
+    for (auto& outer : data)
+    {
+      
