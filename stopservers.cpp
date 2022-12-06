@@ -27,4 +27,4 @@ void CStopServers::show()
 
     for (auto& outer : data)
     {
-        if (ui->comboBox->findText(outer.second[CServ
+        if (ui->comboBox->findText(outer.second[CServerManager::SERV
