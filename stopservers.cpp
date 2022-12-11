@@ -30,4 +30,4 @@ void CStopServers::show()
         if (ui->comboBox->findText(outer.second[CServerManager::SERVER_NAME]) == -1)
         {
             //qDebug() << "the status is: " <<  outer.second[CServerManager::STATUS];
-            LOGGER_HE
+            LOGGER_HELPER(DEBUG, errMsg, "the s
