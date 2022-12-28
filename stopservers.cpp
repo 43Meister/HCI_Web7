@@ -32,4 +32,5 @@ void CStopServers::show()
             //qDebug() << "the status is: " <<  outer.second[CServerManager::STATUS];
             LOGGER_HELPER(DEBUG, errMsg, "the status is:", outer.second[CServerManager::STATUS]);
 
-            if (outer.second[CServerManager::STATUS] == CServerMan
+            if (outer.second[CServerManager::STATUS] == CServerManager::ACTIVE)
+        
