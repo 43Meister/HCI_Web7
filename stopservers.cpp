@@ -34,4 +34,4 @@ void CStopServers::show()
 
             if (outer.second[CServerManager::STATUS] == CServerManager::ACTIVE)
             {
-              
+                ui->comboBox->addItem(outer.s
