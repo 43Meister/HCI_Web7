@@ -38,3 +38,8 @@ void CStopServers::show()
             }
         }
     }
+
+    QDialog::show();
+}
+
+void CS
