@@ -42,4 +42,6 @@ void CStopServers::show()
     QDialog::show();
 }
 
-void CStopServers::on_push
+void CStopServers::on_pushButton_clicked()
+{
+   
