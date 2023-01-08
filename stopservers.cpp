@@ -44,4 +44,5 @@ void CStopServers::show()
 
 void CStopServers::on_pushButton_clicked()
 {
-    std::string errMs
+    std::string errMsg("");
+    auto currVal 
