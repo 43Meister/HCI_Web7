@@ -45,4 +45,5 @@ void CStopServers::show()
 void CStopServers::on_pushButton_clicked()
 {
     std::string errMsg("");
-    auto currVal = ui->comboBox->currentData().
+    auto currVal = ui->comboBox->currentData().toString();
+    (c
