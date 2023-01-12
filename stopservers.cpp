@@ -46,4 +46,6 @@ void CStopServers::on_pushButton_clicked()
 {
     std::string errMsg("");
     auto currVal = ui->comboBox->currentData().toString();
-    (currVal == "-1") ? currVal = "All" : ""
+    (currVal == "-1") ? currVal = "All" : "";
+
+    //qDebug() <<
