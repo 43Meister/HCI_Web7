@@ -48,4 +48,4 @@ void CStopServers::on_pushButton_clicked()
     auto currVal = ui->comboBox->currentData().toString();
     (currVal == "-1") ? currVal = "All" : "";
 
-    //qDebug() << "Stoping server: [ 
+    //qDebug() << "Stoping server: [ "  << currVal << "
