@@ -49,4 +49,4 @@ void CStopServers::on_pushButton_clicked()
     (currVal == "-1") ? currVal = "All" : "";
 
     //qDebug() << "Stoping server: [ "  << currVal << "]";
-    LOGGER_HELP
+    LOGGER_HELPER(DEBUG, errMsg, "Stopping serv
