@@ -55,4 +55,5 @@ void CStopServers::on_pushButton_clicked()
     {
         CServerManager::getReference().deleteAll();
     }
-    else //we just need 
+    else //we just need to start one server
+    
