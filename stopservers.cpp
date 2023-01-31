@@ -54,4 +54,5 @@ void CStopServers::on_pushButton_clicked()
     if (currVal == "All")
     {
         CServerManager::getReference().deleteAll();
-   
+    }
+    else //we just need 
