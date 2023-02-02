@@ -57,4 +57,4 @@ void CStopServers::on_pushButton_clicked()
     }
     else //we just need to start one server
     {
-        CServerManager::getReference(
+        CServerManager::getReference().deleteClient(currVal.toInt()
