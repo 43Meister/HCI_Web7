@@ -1,4 +1,5 @@
 #ifndef STOPSERVERS_H
 #define STOPSERVERS_H
 
-#include
+#include <QDialog>
+#include "l
