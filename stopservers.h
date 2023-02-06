@@ -4,4 +4,5 @@
 #include <QDialog>
 #include "logable.h"
 
-namespace 
+namespace Ui {
+class CStopServe
