@@ -2,4 +2,6 @@
 #define STOPSERVERS_H
 
 #include <QDialog>
-#include "l
+#include "logable.h"
+
+namespace 
