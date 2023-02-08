@@ -5,4 +5,7 @@
 #include "logable.h"
 
 namespace Ui {
-class CStopServe
+class CStopServers;
+}
+
+class CStopServers : public 
