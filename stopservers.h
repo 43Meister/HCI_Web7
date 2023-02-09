@@ -10,4 +10,6 @@ class CStopServers;
 
 class CStopServers : public QDialog, CLogable
 {
-    
+    Q_OBJECT
+
+public:
