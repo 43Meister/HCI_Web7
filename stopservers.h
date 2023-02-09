@@ -8,4 +8,6 @@ namespace Ui {
 class CStopServers;
 }
 
-class CStopServers : public 
+class CStopServers : public QDialog, CLogable
+{
+    
