@@ -13,4 +13,5 @@ class CStopServers : public QDialog, CLogable
     Q_OBJECT
 
 public:
-    explicit CStopServers(QWidget *parent 
+    explicit CStopServers(QWidget *parent = 0);
+    ~CStopSer
