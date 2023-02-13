@@ -16,4 +16,6 @@ public:
     explicit CStopServers(QWidget *parent = 0);
     ~CStopServers();
 
-    virt
+    virtual void show();
+
+pr
