@@ -19,4 +19,4 @@ public:
     virtual void show();
 
 private slots:
-    void
+    void on_pushButton_clicked();
