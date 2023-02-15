@@ -18,4 +18,5 @@ public:
 
     virtual void show();
 
-pr
+private slots:
+    void
