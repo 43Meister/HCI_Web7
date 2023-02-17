@@ -22,4 +22,7 @@ private slots:
     void on_pushButton_clicked();
 
 private:
-    Ui::CStopSer
+    Ui::CStopServers *ui;
+};
+
+#endif /
