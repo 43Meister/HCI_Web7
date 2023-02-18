@@ -25,4 +25,4 @@ private:
     Ui::CStopServers *ui;
 };
 
-#endif /
+#endif // STOPSERVERS_H
